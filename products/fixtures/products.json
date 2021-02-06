@@ -1,0 +1,59 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "1",
+      "name": "Stilo black ball point pen 50 pack",
+      "description": "A general black ball point pen for everyday writing needs",
+      "price": 4.99,
+      "category": 1,
+      "rating": 4.0,
+      "image_url": "https://www.paperstone.co.uk/images/200/WX26040.jpg?v=K6Zc8M49--U",
+      "image": "black_ball_point_50.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "2",
+      "name": "Stilo blue ball point pen 50 pack",
+      "description": "A general blue ball point pen for everyday writing needs",
+      "price": 4.99,
+      "category": 1,
+      "rating": 4.0,
+      "image_url": "https://www.paperstone.co.uk/images/200/WX26039.jpg?v=3EO_HdikoF0",
+      "image": "blue_ball_point_50.jpg"
+    }
+  },
+   {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "3",
+      "name": "bic ball point pen 50 pack",
+      "description": "Bic's ball point pen long standing engineers for pens",
+      "price": 4.99,
+      "category": 1,
+      "rating": 4.0,
+      "image_url": "https://www.paperstone.co.uk/images/200/BC10002.jpg?v=-N2ppTAA7Dc",
+      "image": "bic_crystal_ball_pen_50.jpg"
+    }
+  },
+   {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "4",
+      "name": "mulitcoloured flipchart markers",
+      "description": "wipeable markers for whiteboards. Range of colours, Green, Red, Black",
+      "price": 3.49,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://www.paperstone.co.uk/images/200/WX01551.jpg?v=OwH6Ct1wcVc",
+      "image": "flipchart_markers.jpg"
+    }
+  },
+  
+  
