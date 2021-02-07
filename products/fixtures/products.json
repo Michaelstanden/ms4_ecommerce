@@ -175,7 +175,7 @@
       "name": "q-connect ball point black pen with holder and chain",
       "description": "The perfect pen desk or communal pen for office needs. Easy to use ball point with holder and chain is a pen you are never going to lose.",
       "price": 3.99,
-      "category": 3,
+      "category": 1,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/KF00233.jpg?v=z4nq2dgnK6E",
       "image": "qconnect_pen_holder.jpg"
@@ -189,7 +189,7 @@
       "name": "q-connect overhead projector fine tip black permanent marker 10 pack",
       "description": "Permanent over head projector pens, Great for laminates you want to keep and reuse for those repetitive lessons and presentations.",
       "price": 3.99,
-      "category": 3,
+      "category": 1,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/KF01068.jpg?v=tHJ2I7WgWX8",
       "image": "qconnect_OHP_pen_permanent_fineblack_10"
@@ -203,7 +203,7 @@
       "name": "Steadler 430 stick medium ballpoint pen 10 pack ",
       "description": "Staedler's beautiful ballpoints help glide along paper with ease. Medium ink dispertion for an even distribution.",
       "price": 2.99,
-      "category": 3,
+      "category": 1,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/ST41089.jpg?v=8CZUDF_b-OU",
       "image": "staedler_430stickmed_ballpoint_blue_10.jpg"
@@ -217,7 +217,7 @@
       "name": "staedler triplus fibre tip pens 10 pack coloured assortment",
       "description": "Fibre tip pens in an assortment of colours for all your broad stroke colouring needs, can also be used to write as normal to highlight and break up long text. Perfect for studying and colouring.",
       "price": 11.00,
-      "category": 3,
+      "category": 1,
       "rating": 4.3,
       "image_url": "https://www.paperstone.co.uk/images/200/ST32317.jpg?v=OmD_bFIHEnM",
       "image": "steadler_triplus_colorfibre_tippen_10.jpg"
@@ -245,7 +245,7 @@
       "name": "stabile sensor fineliner bright pen medium black 10 pack",
       "description": "Stabile's fineliner pens allows a precise writing style and defined edge to any writing or line drawing.",
       "price": 15.99,
-      "category": 4,
+      "category": 1,
       "rating": 3.9,
       "image_url": "https://www.paperstone.co.uk/images/200/SS13662.jpg?v=DbEPWr04QjQ",
       "image": "stabilo_sensor_finetip_black_10.jpg"
@@ -259,7 +259,7 @@
       "name": "black fineliner 0.4mm 10 pack",
       "description": "black fineliner suitable for fine line work needs, Not a writing pen. Best used for archituecture drawings, graphs and spreadsheet highlighting",
       "price":3.79 ,
-      "category": 4,
+      "category": 1,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/WX25007.jpg?v=IdlzGUGLFUE",
       "image": "fineliner_0.4mm_black_10.jpg"
@@ -273,7 +273,7 @@
       "name": "west chinagraph 12 pack black marker pencils",
       "description": "High quality west chinagraphite pencils for drawings or giving strong lines. Used for their premium quality graphite to give a strong line on paper.",
       "price": 8.49,
-      "category": 4,
+      "category": 1,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/RSCHBK.jpg?v=2Xu_oF7mXjs",
       "image": "westdesign_chinagraph_pencil_black_12.jpg"
@@ -287,7 +287,7 @@
       "name": "Tree saver HB 72 pack of recycled pencils",
       "description": "Enviromentally friendly HB high quality pencils made from receylced pencils 72 in a pack.",
       "price": 10.99,
-      "category": 4,
+      "category": 1,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/EG60262.jpg?v=Lasge-mrikg",
       "image": "treesaver_HB_pencil_recycled_72.jpg"
@@ -301,7 +301,7 @@
       "name": "helix oxford 20 pack metal pencil sharpener",
       "description": "Helix standard oxford metal pencil sharpeners. Long lasting, durable and will shapren any pencil to a fine point.",
       "price": 10.99,
-      "category": 4,
+      "category": 1,
       "rating": 4.4,
       "image_url": "https://www.paperstone.co.uk/images/200/HX31974.jpg?v=xdNOGwBzl_o",
       "image": "helix_oxford_metal_pencilsharpener_20.jpg"
@@ -315,7 +315,7 @@
       "name": "Colour copy preimuim white paper 500 sheets",
       "description": "Premium industry quality white paper sheets for printing and copying needs.",
       "price": 8.29,
-      "category": 4,
+      "category": 2,
       "rating": 4.6,
       "image_url": "https://www.paperstone.co.uk/images/200/LG40114.jpg?v=IZC3ognGRsg",
       "image": "colour_copy_a4_whitepaper.jpg"
@@ -329,7 +329,7 @@
       "name": "evolution A4 business recycled fsc paper 500 sheets",
       "description": "Recycled buisness wuality paper for printing and copying needs.",
       "price": 8.99,
-      "category": 4,
+      "category": 2,
       "rating": 4.8,
       "image_url": "https://www.paperstone.co.uk/images/200/EVO00083.jpg?v=dlt1W-EwQZI",
       "image": "evolution_business_recycled_paper_500.jpg"
@@ -343,7 +343,7 @@
       "name": "Canon A3 yellow label multipurpose paper 500 sheets",
       "description": "Yellow label standard multipurpose A3 Paper produced by Canon and their high qualitystandard in paper and printing.",
       "price": 7.99,
-      "category": 5,
+      "category": 2,
       "rating": 4.8,
       "image_url": "https://www.paperstone.co.uk/images/200/CO01119.jpg?v=HigLfXAhYmc",
       "image": "canon_a3_yellowlabel_500.jpg"
@@ -357,7 +357,7 @@
       "name": "Xerox a4 white paper performer 500 sheets",
       "description": "Xerox high performance durable paper (non easy tear) high quality printing paper.",
       "price": 7.99,
-      "category": 5,
+      "category": 2,
       "rating": 4.9,
       "image_url": "https://www.paperstone.co.uk/images/200/XX49049.jpg?v=YXPnUG7--es",
       "image": "xerox_performer_a4_500.jpg"
@@ -371,7 +371,7 @@
       "name": "canon A4 yellow label white sheet paper 500sheets x 5 pack",
       "description": "Yellow label A4 mutlipurpose pronting and copier white sheet paper 500 sheets in one pack.",
       "price": 19.99,
-      "category": 5,
+      "category": 2,
       "rating": 4.9,
       "image_url": "https://www.paperstone.co.uk/images/200/CO01116.jpg?v=Qh1FPwduWyc",
       "image": "canon_yellowlabel_5pack.jpg"
@@ -385,7 +385,7 @@
       "name": "qconnect recycled copier paper 5x500 sheets A4",
       "description": "Q-Connect leading suppliers in the office world have their recycled copier paper 5x 500 sheets pack.",
       "price": 19.99,
-      "category": 5,
+      "category": 2,
       "rating": 4.5,
       "image_url": "https://www.paperstone.co.uk/images/200/KF01047.jpg?v=43Wp1Vm-9A0",
       "image": "qconnect_a4_recycledcopierpaper5500.jpg"
@@ -399,7 +399,7 @@
       "name": "Xerox colotech+ A4 paper 500 sheets",
       "description": "Xerox Colotech+ A4 premium prinitng paper, great for graphic projects or high quality image printing.",
       "price": 7.99,
-      "category": 5,
+      "category": 2,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/XX94641.jpg?v=kdFrC3S93dE",
       "image": "xerox_colotech+_a4_paper_5500.jpg"
@@ -413,7 +413,7 @@
       "name": "Pukkapad wirebound A5 jotter notebook, lined and tearable sheets 3 pack",
       "description": "Pukka's staple notebook for any student or quick business notetaking. Wireframed for durability, lined paper for easy writing and tearable sheets.",
       "price": 5.99,
-      "category": 5,
+      "category": 3,
       "rating": 4.4,
       "image_url": "https://www.paperstone.co.uk/images/200/PP00020.jpg?v=ay7Mt-Y3ef4",
       "image": "pukkapad_a5_wirebound_ruled.jpg"
@@ -427,7 +427,7 @@
       "name": "Q-connect memo pad A4 pack of ten faint ruled 80 sheets",
       "description": "Q-connect's memopad for quick jot downs and essential minute taking in meetings. Off white and faint ruled.",
       "price": 8.69,
-      "category": 5,
+      "category": 3,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/KF32001.jpg?v=2oB06W0tmGU",
       "image": "qconnect_memopad_a4_10.jpg"
@@ -441,7 +441,7 @@
       "name": "qconnect refill pad A4 pack of 10",
       "description": "Q-connect refill pad for memo sheets or for notebooks.",
       "price": 17.99,
-      "category": 5,
+      "category": 3,
       "rating": 4.7,
       "image_url": "https://www.paperstone.co.uk/images/200/KF02228.jpg?v=rpWi-eiWpQk",
       "image": "qconnect_refillpad_a4.jpg"
@@ -455,7 +455,7 @@
       "name": "pukka pad pastel 3 pack a5 13.99",
       "description": "Pukka's Pastel coloured pads are going to be the envy of any meeting room or lecture when you pull them out. A5 to ensure they fit into any bag or backpack.",
       "price": 37.50,
-      "category": 6,
+      "category": 3,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/PP18631.jpg?v=_llE9moTjVc",
       "image": "pukkapad_pastel_a5_3.jpg"
@@ -469,7 +469,7 @@
       "name": "Spiral shorthand notebook lined 80 sheets 10 pack",
       "description": "80 paged shorthand notebook perfect for thise quick note-taking sessions or jot down ideas throughout the day.",
       "price": 7.49,
-      "category": 6,
+      "category": 3,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/WX31003.jpg?v=oqYPy959FzM",
       "image": "spiral_shorthand_notebook_80.jpg"
@@ -483,7 +483,7 @@
       "name": "pukka pad a4 wired pack of 3",
       "description": "A4 version of Pukka's premium wired durable pads. Hard plastic cover and wired binding means this notebook can withstand many a meeting.",
       "price": 8.19,
-      "category": 6,
+      "category": 3,
       "rating": 4.1,
       "image_url": "https://www.paperstone.co.uk/images/200/PP01361.jpg?v=Ich2CKjnRSw",
       "image": "pukkapad_a4_wired_10.jpg"
@@ -497,7 +497,7 @@
       "name": "manuscript red a5 book ruled pack of 10",
       "description": "Red cover, ruled manuscript A5 book. Professional standard aesthetic, durable hardback and small sized perfect to fit in any bag or backpack..",
       "price": 10.99,
-      "category": 6,
+      "category": 3,
       "rating": 4.8,
       "image_url": "https://www.paperstone.co.uk/images/200/WX01061.jpg?v=6CKo4TpEqPA",
       "image": "manuscript_a5_book_ruled.jpg"
@@ -511,7 +511,7 @@
       "name": "Graffico Twin Wire Pocket Notebook 120 Pages A7",
       "description": "Graffico's supreme twin wired pocket A7 notebook. Small lightweight and curable with its twin wired binding. Great notebook companion.",
       "price": 2.59,
-      "category": 6,
+      "category": 3,
       "rating": 4.9,
       "image_url": "https://www.paperstone.co.uk/images/200/EN12070.jpg?v=lFm0bieVwe8",
       "image": "graffico_twinwire_pocketnotebook_a7.jpg"
@@ -525,7 +525,7 @@
       "name": "Cambridge Counsels Notebook A4, Ruled & Perforated, 96 Pages, Pack of 10",
       "description": "Professional and high end aesthetic notebook. 96 pages of perferated easy tearing sheets, ruled for easy writing.",
       "price": 9.89,
-      "category": 6,
+      "category": 3,
       "rating": 4.9,
       "image_url": "https://www.paperstone.co.uk/images/200/JDK76303.jpg?v=nHFAewv_vf8",
       "image": "cambridge_counsel_notebook_a4.jpg"
@@ -539,7 +539,7 @@
       "name": "Collins Ideal Casebound Manuscript Book A4, Ruled, 192 Pages ",
       "description": "Collin's professional aesthetic casebound manuscript book. Ideal for writing projects and authors best choice for stroy boarding",
       "price": 7.19,
-      "category": 6,
+      "category": 3,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/CL76742.jpg?v=A6MxflY348A",
       "image": "collins_casebound_notebook.jpg"
@@ -553,7 +553,7 @@
       "name": "Epson T7607 Killer Whale Light Black Inkjet Cartridge",
       "description": "Epson wuality printer inks delivers essential light black ink cartridge for printing needs.",
       "price": 21.99,
-      "category": 6,
+      "category": 4,
       "rating": 5.0,
       "image_url": "https://www.paperstone.co.uk/images/200/EP53912.jpg?v=beqwKRTajAc",
       "image": "epsom_lightblack_ink.jpg"
@@ -581,7 +581,7 @@
       "name": "Epson T266 Black Inkjet Cartridge",
       "description": "Epson true Black inkjet cartidges. Copier and printer standard",
       "price": 16.99,
-      "category": 7,
+      "category": 4,
       "rating": 5.0,
       "image_url": "https://www.paperstone.co.uk/images/200/EP54182.jpg?v=-W3ylLMnQ8c",
       "image": "epson_black_266globe.jpg"
@@ -595,7 +595,7 @@
       "name": "Epson T267 Colour Inkjet Cartridge",
       "description": "The KryptoLok Series 2 Integrated Chains include 9mm four-sided chain links made from triple heat-treated boron manganese steel. The chain secures with a new patent-pending Integrated KryptoLok series 2 Lock head with talon deadbolt. The innovative chains also include a new patent-pending pin-less link design which allows for no weak link in the chain.",
       "price": 13.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/EP54184.jpg?v=-gsiR9gkOb8",
       "image": "epson_colour_goblet267.jpg"
@@ -609,7 +609,7 @@
       "name": "Epson T7601 Photo Black Ink Cartridge C13T76014010 / T7601",
       "description": "Epson multi printer cartirdges for most Epson printers. Versatile cartidges for multi-printer needs.",
       "price": 22.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.7,
       "image_url": "https://www.paperstone.co.uk/images/200/EP53906.jpg?v=8YIADJh55qw",
       "image": "epson_black_whalephoto_cartridge.jpg"
@@ -623,7 +623,7 @@
       "name": "Epson T7605 Light Cyan Ink Cartridge C13T76054010 / T7605",
       "description": "Epson Cyan mulit printer cartridge. Perfect for most Epson printers.",
       "price": 22.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/EP53910.jpg?v=V0XFs_QpKZE",
       "image": "epson_cyan_whale_cartridge.jpg"
@@ -637,7 +637,7 @@
       "name": "Epson T7603 Vivid Magenta Ink Cartridge C13T76034010 / T7603 22.99",
       "description": "Epson multi printer Magenta cartridges. Perfect for most Epson printer usage.",
       "price": 22.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.1,
       "image_url": "https://www.paperstone.co.uk/images/200/EP53908.jpg?v=W0e2NDsD8BU",
       "image": "epson_magenta_whale_cartridge.jpg"
@@ -651,7 +651,7 @@
       "name": "Epson T7604 Yellow Ink Cartridge C13T76044010 / T7604 22.99",
       "description": "Epson multi printer purpose cartridge. Yellow coloured ink.",
       "price": 22.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.4,
       "image_url": "https://www.paperstone.co.uk/images/200/EP53909.jpg?v=ixyTHRkRVlE",
       "image": "epson_yellow_whale_cartridge.jpg"
@@ -665,7 +665,7 @@
       "name": "Canon CLI-36 Colour Inkjet Cartridge",
       "description": "Canon colour inkjet cartirdge.",
       "price": 11.99,
-      "category": 7,
+      "category": 4,
       "rating": 4.4,
       "image_url": "https://www.paperstone.co.uk/images/200/CO39176.jpg?v=UKb-H8ELYnQ",
       "image": "canon_colour_cartridge.jpg"
@@ -679,7 +679,7 @@
       "name": "Canon PGI-525 Black Inkjet Cartridge",
       "description": "Canon Pure black inket colour for printer and copier functions.",
       "price": 12.99,
-      "category": 8,
+      "category": 4,
       "rating": 4.7,
       "image_url": "https://www.paperstone.co.uk/images/200/CO66992.jpg?v=lSwkBvGNnVo",
       "image": "canon_black_boxcart.jpg"
@@ -693,7 +693,7 @@
       "name": "Canon CLI-521 Magenta Inkjet Cartridge",
       "description": "Canon Magenta inkjet cartidge.",
       "price": 12.99,
-      "category": 8,
+      "category": 4,
       "rating": 4.8,
       "image_url": "https://www.paperstone.co.uk/images/200/CO57751.jpg?v=4nY3XrJR8V8",
       "image": "canon_magenta_cartridge.jpg"
@@ -707,7 +707,7 @@
       "name": "Canon CLI-521 Cyan Inkjet Cartridge",
       "description": "Canon Cyan inket cartridge",
       "price": 12.99,
-      "category": 8,
+      "category": 4,
       "rating": 4.7,
       "image_url": "https://www.paperstone.co.uk/images/200/CO57749.jpg?v=ucL7wfvEcJ4",
       "image": "canon_cyan_cartidge.jpg"
@@ -721,7 +721,7 @@
       "name": "Canon CLI-521 Yellow Inkjet Cartridge ",
       "description": "Canon Yellow inkjet cartridge",
       "price": 12.99,
-      "category": 8,
+      "category": 4,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/CO57753.jpg?v=jDN6FtnYzsU",
       "image": "canon_yellow_cartridge.jpg"
@@ -735,7 +735,7 @@
       "name": "Contour Heavy Duty Executive Leather Chair 289.00",
       "description": "Nothing screams you're the boss more than this heavy duty all black leather executive chair. Durable, heavyduty and contoured for comfort this chair is in a league of it's own",
       "price": 289.00,
-      "category": 8,
+      "category": 5,
       "rating": 5.0,
       "image_url": "https://www.paperstone.co.uk/images/200/CO57753.jpg?v=jDN6FtnYzsU",
       "image": "exec_chair_leather.jpg"
@@ -749,7 +749,7 @@
       "name": "Colossal Fabric blue Executive Chair",
       "description": "Cobalt blue heavy duty fabric executive chair for those who prefer a cloth appraoch to their chairs. Semi reclining and adjustable for all body types",
       "price": 216.00,
-      "category": 8,
+      "category": 5,
       "rating": 4.0,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_25460_1.jpg",
       "image": "fabric_blue_chair.jpg"
@@ -763,7 +763,7 @@
       "name": "Chase Heavy Duty Mesh Back Operator Chair",
       "description": "Standard comfy and durable operatpr's chair. Black mesh back support, adjustable",
       "price": 310.00,
-      "category": 8,
+      "category": 5,
       "rating": 4.2,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/h/e/hercules_1.jpg",
       "image": "mesh_exec_chair.jpg"
@@ -777,7 +777,7 @@
       "name": "Full Lumbar 2 Lever Operator Chair No Arms blue",
       "description": "Blue fabric armless chair, adjustable, and semi reclining. Lumbar support model to keep backs supported all day",
       "price": 56.00,
-      "category": 8,
+      "category": 5,
       "rating": 4.9,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/1/5/1572703621734729.jpg",
       "image": "blue_lumbar_noarms.jpg"
@@ -791,7 +791,7 @@
       "name": "Kendall 2 Lever High Back Operator Chair black Lumbar",
       "description": "Black fabric armless chair, adjustable, and semi reclining. Lumbar support model to keep backs supported all day",
       "price": 56.00,
-      "category": 9,
+      "category": 5,
       "rating": 4.6,
       "image_url": "https://cdn.webshopapp.com/shops/219098/files/334165911/600x600x2/cannondale-cannondale-quick-disc-5-city-bike-2021.jpg",
       "image": "black_lumbar_noarms.jpg"
@@ -805,7 +805,7 @@
       "name": "Merida Speeder 100D 2021 Blue",
       "description": "Redesigned for MY20 with more sporty geometry with longer reach. The frame can accomodate wider tyres making it more versatile - up to 37mm (32mm with mudguards). All models run hydraulic disc brakes for all weather reliability and come with a tapered carbon fork.",
       "price": 799.00,
-      "category": 9,
+      "category": 5,
       "rating": 4.9,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/v/1/v100-00-k.jpg",
       "image": "merida-merida-speeder-100d-blue-2021.jpg"
@@ -861,7 +861,7 @@
       "name": "Moffat Mesh Back Operator Chair",
       "description": ".",
       "price": 79.00,
-      "category": 9,
+      "category": 5,
       "rating": 3.9,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/h/a/hal300t1-k_1_3.jpg",
       "image": "moffat_mesh_chair.jpg"
@@ -875,7 +875,7 @@
       "name": "Anapo Mesh Back Operator Chair",
       "description": "Stylish, comfortable and durable. The Anapo mesh operator chair will make any employee comfortable.",
       "price": 92.00,
-      "category": 9,
+      "category": 5,
       "rating": 4.8,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/o/p/op000249_3.jpg",
       "image": "anapo_mesh_chair.jpg"
@@ -931,7 +931,7 @@
       "name": "Annex Industrial Bench Desk (Charter Oak)",
       "description": "This low cost but high end looking desk is a sure fire way to give your office that touch of luxury without breaking the bank.",
       "price": 117.00,
-      "category": 10,
+      "category": 6,
       "rating": 4.6,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_industrial-style-bench-desk_2_3732991896_1.jpg",
       "image": "annex_desk_charteroak.jpg"
@@ -959,7 +959,7 @@
       "name": "Proteus III L-Shape Desk",
       "description": "Economical on space and price this L-shaped desk can make the most use of space in any office.",
       "price": 223.00,
-      "category": 10,
+      "category": 6,
       "rating": 4.0,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/w/o/woodlea_zoom_60221.jpg",
       "image": "proteus_lshape_desk.jpg"
@@ -973,7 +973,7 @@
       "name": "Respond Sit & Stand Desk (Platinum Oak)",
       "description": "for the office lovers who like to stand, or sit. This versatile desk offers both options, all whilst being strikingly stylish.",
       "price": 580.00,
-      "category": 10,
+      "category": 6,
       "rating": 4.2,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/b/s/bspot_zoom_ecoreact16bpo-sil.jpg",
       "image": "sitstand_platoak_desk.jpg"
@@ -987,7 +987,7 @@
       "name": "Respond Sit & Stand Desk (Beech)",
       "description": "for the office lovers who like to stand, or sit. This versatile desk offers both options, all whilst being strikingly stylish.",
       "price": 580.00,
-      "category": 10,
+      "category": 9,
       "rating": 4.9,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/b/s/bspot_zoom_ecoreact16bb-sil.jpg",
       "image": "sitstand_beech_desk.jpg"
@@ -1001,7 +1001,7 @@
       "name": "Tully I Rectangular Desk 3 Drawers",
       "description": "Traditonal desks that have ample storage with 3 drawers for all your office needs. Keeps clutter clear.",
       "price": 195.00,
-      "category": 10,
+      "category": 6,
       "rating": 4.5,
       "image_url": "",
       "image": "tully_desk_draw.jpg"
@@ -1015,7 +1015,7 @@
       "name": "Portal L Shaped Workstation",
       "description": "L shaped desk to maximise space and have plenty of surface to work from. Suitable for the office spreaders.",
       "price": 359.00,
-      "category": 11,
+      "category": 9,
       "rating": 4.7,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_5412320_1.jpg",
       "image": "portal_lshaped_desk.jpg"
