@@ -116,8 +116,57 @@
             <i class="fas fa-arrow-up text-warning mx-auto my-auto"></i>
         </a>	
     </div>
+     <div class="btt-button shadow-sm border border-black bg-dark">
+        <a class="button-up d-flex h-100 text-decoration-none">
+            <i class="fas fa-arrow-up text-info mx-auto my-auto"></i>
+        </a>	
+    </div>
 {% endblock %}
 {% block postloadjs %}
     {{ block.super }}
-  
+    <script>
+		$('.button-up').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
+    
+    <script>
+        $('#sort-selector').change(function() {
+            let selector = $(this);
+            let currentUrl = new URL(window.location);
+
+            let selectedValue = selector.val();
+            if(selectedValue != "reset"){
+                let sort = selectedValue.split("_")[0];
+                let direction = selectedValue.split("_")[1];
+
+                currentUrl.searchParams.set("sort", sort);
+                currentUrl.searchParams.set("direction", direction);
+
+                window.location.replace(currentUrl);
+            } else {
+                currentUrl.searchParams.delete("sort");
+                currentUrl.searchParams.delete("direction");
+
+                window.location.replace(currentUrl);
+            }
+        })
+        // added active btn btn-sm btn-outline-dark classes from this will ensure that when user is on that products
+      // then they will have a dark button background to highlight what button they are on. https://www.youtube.com/watch?v=BI3kNsTruWo
+        let currentLocation = location.href;
+        let menuItem = document.querySelectorAll('span a');
+        let menuLength = menuItem.length;
+        let dropdownItem = document.getElementsByClassName('dropdown-item');
+        for(let i = 0; i<menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = 'active btn btn-sm btn-outline-dark';
+            }
+        }
+        for(let i = 0; i<dropdownItem.length; i++){
+            if(dropdownItem[i].href === currentLocation){
+                dropdownItem[i].className = 'active dropdown-item bg-dark';
+            }
+        }
+
+    </script>
 {% endblock %}
