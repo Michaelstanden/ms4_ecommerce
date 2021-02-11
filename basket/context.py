@@ -1,6 +1,5 @@
 from django.shortcuts import get_object_or_404
 from products.models import Product
-from decimal import Decimal
 
 
 def basket_contents(request):
@@ -22,7 +21,7 @@ def basket_contents(request):
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
-            for quantity in item_data.items():
+            for item_id, quantity in basket.items():
                 total += quantity * product.price
                 product_count += quantity
                 basket_items.append({
