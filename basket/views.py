@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 
 # Create your views here.
@@ -7,8 +7,6 @@ def view_basket(request):
     """ A view that renders the bag contents page """
 
     return render(request, 'basket/basket.html')
-
-from django.shortcuts import render, redirect
 
 
 def add_to_basket(request, item_id):
@@ -26,3 +24,42 @@ def add_to_basket(request, item_id):
     request.session['basket'] = basket
     print(request.session['basket'])
     return redirect(redirect_url)
+
+    def adjust_basket(request, item_id):
+        """Adjust the quantity of the specified product to the specified amount"""
+
+    quantity = int(request.POST.get('quantity'))
+    if request.POST:
+        basket = request.session.get('basket', {})
+
+        if quantity > 0:
+            basket[item_id] = quantity
+        else:
+            del basket[item_id]
+            if not basket[item_id]:
+                basket.pop(item_id)
+    else:
+        if quantity > 0:
+            basket[item_id] = quantity
+        else:
+            basket.pop(item_id)
+
+    request.session['basket'] = basket
+    return redirect(reverse('view_basket'))
+
+
+def remove_item_bask(request, item_id):
+    """shortened function name for urls.py line too long"""
+    """Remove the item from the basket"""
+
+    try:
+        if request.POST:
+            basket = request.session.get('basket', {})
+        else:
+            basket.pop(item_id)
+
+        request.session['basket'] = basket
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        return HttpResponse(status=500)
