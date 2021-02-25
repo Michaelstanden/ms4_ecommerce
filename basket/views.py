@@ -53,17 +53,20 @@ def adjust_basket(request, item_id):
 
 
 def remove_item_bask(request, item_id):
-    """shortened function name for urls.py line too long"""
-    """Remove the item from the basket"""
+    """Remove the item from the basket and display appropriate message"""
 
     try:
+        product = get_object_or_404(Product, pk=item_id)
         if request.POST:
             basket = request.session.get('basket', {})
+
         else:
             basket.pop(item_id)
+            messages.success(request, f'Removed {product.name} from your basket')
 
         request.session['basket'] = basket
         return HttpResponse(status=200)
 
     except Exception as e:
+        messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
