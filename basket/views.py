@@ -51,7 +51,7 @@ def adjust_basket(request, item_id):
     return redirect(reverse('view_basket'))
 
 
-def remove_item_bask(request, item_id):
+def remove_item(request, item_id):
     """Remove the item from the basket and display appropriate message"""
 
     try:
