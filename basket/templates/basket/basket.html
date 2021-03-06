@@ -138,6 +138,7 @@
         var data = { csrfmiddlewaretoken: csrfToken };
 
         $.post(url, data).done(function () {
+            console.log('deleting item form basket')
             location.reload();
         });
     });

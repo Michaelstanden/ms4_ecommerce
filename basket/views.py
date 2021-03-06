@@ -59,7 +59,6 @@ def remove_item(request, item_id):
         if request.POST:
             basket = request.session.get('basket', {})
 
-        else:
             basket.pop(item_id)
             messages.success(request, f'Removed {product.name} from your basket')
 

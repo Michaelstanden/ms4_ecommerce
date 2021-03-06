@@ -7,8 +7,8 @@ from django.conf import settings
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from products.models import Product
-# from profiles.forms import UserProfileForm
-# from profiles.models import UserProfile
+#from profiles.forms import UserProfileForm
+#from profiles.models import UserProfile
 from basket.context import basket_contents
 
 import stripe
@@ -68,9 +68,18 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
+                    else:
+                        for size, quantity in item_data['items_by_size'].items():
+                            order_line_item = OrderLineItem(
+                                order=order,
+                                product=product,
+                                quantity=quantity,
+                                product_size=size,
+                            )
+                            order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your cart wasn't found in our database. "
+                        "One of the products in your basket wasn't found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
@@ -88,7 +97,7 @@ def checkout(request):
             messages.error(request, "There's nothing in your basket at the moment")
             return redirect(reverse('products'))
 
-        current_basket = basket_contents(request)
+        current_bakset = basket_contents(request)
         total = current_basket['total']
         stripe_total = round(total * 100)
         stripe.api_key = stripe_secret_key
