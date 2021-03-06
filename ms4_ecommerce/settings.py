@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'checkout',
 
     # OTHER
-    'cripsy_forms',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [

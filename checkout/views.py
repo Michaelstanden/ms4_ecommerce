@@ -7,12 +7,12 @@ from django.conf import settings
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from products.models import Product
-from profiles.forms import UserProfileForm
-from profiles.models import UserProfile
-from basket.contexts import basket_contents
+# from profiles.forms import UserProfileForm
+# from profiles.models import UserProfile
+from basket.context import basket_contents
 
 import stripe
-import jso
+import json
 
 
 @require_POST
