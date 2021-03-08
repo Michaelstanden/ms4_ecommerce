@@ -21,7 +21,7 @@ def basket_contents(request):
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
-            for item_id, quantity in basket.items():
+            for quantity in item_data[''].items():
                 total += quantity * product.price
                 product_count += quantity
                 basket_items.append({
