@@ -140,6 +140,16 @@ body {
     /* text-info */
 }
 
+/*** ORDER SUMMARY ***/
+ .order-history {
+     max-height: 416px;
+    /* height of profile form + submit button */
+     overflow-y: auto;
+}
+ .table-sm td{
+     padding: 0.8rem;
+}
+
 
 /* -------------------------------- Media Queries */
 
