@@ -24,7 +24,8 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-
+            if sortkey == 'category':
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -68,7 +69,8 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
-    def add_product(request):
+
+def add_product(request):
     """ Add a product to the store """
     form = ProductForm()
     template = 'products/add_product.html'
