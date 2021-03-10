@@ -38,7 +38,7 @@
       "category": 1,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/BC10002.jpg?v=-N2ppTAA7Dc",
-      "image": "bic_crystal_ball_pen50.jpg"
+      "image": "bic_crystal_ball_pen.jpg"
     }
   },
    {
@@ -136,7 +136,7 @@
       "category": 1,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/KF00269.jpg?v=72WDYD-gwg0",
-      "image": "qconnect_ballpoint_retractable_red_10.jpg"
+      "image": "qconnect_red.jpg"
     }
   },
    {
@@ -150,7 +150,7 @@
       "category": 1,
       "rating": 5.0,
       "image_url": "https://www.paperstone.co.uk/images/200/BC10001.jpg?v=bTqFeWIPslc",
-      "image": "bic_crystal_ball_blue_50.jpg"
+      "image": "bic_crystal_ball_blue50.jpg"
     }
   },
    {
@@ -192,7 +192,7 @@
       "category": 1,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/KF01068.jpg?v=tHJ2I7WgWX8",
-      "image": "qconnect_OHP_pen_permanent_fineblack_10"
+      "image": "qconnect_OHP_pen_permanent_fineblack_10.jpg"
     }
   },
   {
@@ -388,7 +388,7 @@
       "category": 2,
       "rating": 4.5,
       "image_url": "https://www.paperstone.co.uk/images/200/KF01047.jpg?v=43Wp1Vm-9A0",
-      "image": "qconnect_a4_recycledcopierpaper5500.jpg"
+      "image": "qconnect_a4_recycled_copierpaper_5500.jpg"
     }
   },
   {
@@ -402,7 +402,7 @@
       "category": 2,
       "rating": 4.2,
       "image_url": "https://www.paperstone.co.uk/images/200/XX94641.jpg?v=kdFrC3S93dE",
-      "image": "xerox_colotech+_a4_paper_5500.jpg"
+      "image": "xerox_a4_paper_500.jpg"
     }
   },
   {
@@ -584,7 +584,7 @@
       "category": 4,
       "rating": 5.0,
       "image_url": "https://www.paperstone.co.uk/images/200/EP54182.jpg?v=-W3ylLMnQ8c",
-      "image": "epson_black_266globe.jpg"
+      "image": "epson_black_globe.jpg"
     }
   },
   {
@@ -598,7 +598,7 @@
       "category": 4,
       "rating": 4.0,
       "image_url": "https://www.paperstone.co.uk/images/200/EP54184.jpg?v=-gsiR9gkOb8",
-      "image": "epson_colour_goblet267.jpg"
+      "image": "epson_colour_goblet.jpg"
     }
   },
   {
@@ -710,7 +710,7 @@
       "category": 4,
       "rating": 4.7,
       "image_url": "https://www.paperstone.co.uk/images/200/CO57749.jpg?v=ucL7wfvEcJ4",
-      "image": "canon_cyan_cartidge.jpg"
+      "image": "canon_cyan_cartridge.jpg"
     }
   },
   {
@@ -793,8 +793,8 @@
       "price": 56.00,
       "category": 5,
       "rating": 4.6,
-      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334165911/600x600x2/cannondale-cannondale-quick-disc-5-city-bike-2021.jpg",
-      "image": "black_lumbar_noarms.jpg"
+      "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/v/1/v100-00-k.jpg",
+      "image": "black_lumar_noarms.jpg"
     }
   },
   {
@@ -802,13 +802,13 @@
     "model": "products.product",
     "fields": {
       "sku": "58",
-      "name": "Merida Speeder 100D 2021 Blue",
-      "description": "Redesigned for MY20 with more sporty geometry with longer reach. The frame can accomodate wider tyres making it more versatile - up to 37mm (32mm with mudguards). All models run hydraulic disc brakes for all weather reliability and come with a tapered carbon fork.",
-      "price": 799.00,
+      "name": "Kendall 2 Lever High Back Operator Chair Black lumbar",
+      "description": "Kendall's 2 lever high back operator chair that is suitable for any office enivronment to  ensure any worker is comfortable throughout their day.",
+      "price": 56.00,
       "category": 5,
       "rating": 4.9,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/v/1/v100-00-k.jpg",
-      "image": "merida-merida-speeder-100d-blue-2021.jpg"
+      "image": "black_lumbar_arms.jpg"
     }
   },
   {
@@ -822,7 +822,7 @@
       "category": 9,
       "rating": 4.2,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/1/5/1572704610064083.jpg",
-      "image": "blue_lumbar_arms.jpg"
+      "image": "blue_lumbar_noarms.jpg"
     }
   },
   {
@@ -1018,7 +1018,7 @@
       "category": 9,
       "rating": 4.7,
       "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_5412320_1.jpg",
-      "image": "portal_lshaped_desk.jpg"
+      "image": "portal_lshaped_station.jpg"
     }
   }
 ]
