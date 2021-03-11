@@ -77,6 +77,13 @@ body {
 .toast-capper {
     height: 2px;
 }
+
+/*** LOGO ***/
+
+ .logo{
+     height: 7rem;
+}
+
 /*** ALLAUTH FORM FORMATTING ***/
  .allauth-form-inner-content p {
      margin-top: 1.5rem;

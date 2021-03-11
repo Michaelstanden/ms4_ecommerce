@@ -55,3 +55,109 @@
         </div>
     </div>
 </div>
+<!--Links and Displays to New Arrivals and Deals-->
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center mt-5 mb-5">
+            <button id="new-arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg m-3">New Arrivals</button>
+            <button id="deals" class="text-decoration-none btn btn-outline-dark btn-lg m-3">Deals</button>
+        </div>
+    </div>
+    <div class="row">
+        {% for product in products %} 
+        {% if product.category.name == "new_arrivals" %}
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 new-arrivals-container">
+            <div class="card h-100">
+                <a href="{% url 'product_details' product.id %}">
+                    {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% else %}
+                    <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% endif %}
+                </a>
+                <div class="card-body bg-info">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    {% if product.price %}
+                    <div>
+                        <p class="lead mb-0 font-weight-bold">£{{ product.price }}</p>
+                    </div>
+                    {% endif %} 
+                    {% if product.category %}
+                    <div>
+                        <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
+                    </div>
+                    {% endif %} 
+                    {% if product.rating %}
+                    <div>
+                        <i class="fas fa-star"> {{ product.rating }}/5</i>
+                    </div>
+                    {% endif %} 
+                    {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> |
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                    </small>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %} 
+        {% if product.category.name == "deals" %}
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none deals-container">
+            <div class="card h-100">
+                <a href="{% url 'product_details' product.id %}">
+                    {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% else %}
+                    <img src="{{ MEDIA_URL }}no-image-available.png" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% endif %}
+                </a>
+                <div class="card-body bg-info">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    {% if product.price %}
+                    <div>
+                        <p class="lead mb-0 font-weight-bold">£ {{ product.price }}</p>
+                    </div>
+                    {% endif %} 
+                    {% if product.category %}
+                    <div>
+                        <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
+                    </div>
+                    {% endif %} 
+                    {% if product.rating %}
+                    <div>
+                        <i class="fas fa-star"> {{ product.rating }}/5</i>
+                    </div>
+                    {% endif %} 
+                    {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> |
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                    </small>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %} 
+        {% endfor %}
+    </div>
+</div>
+{% endblock %} 
+{% block postloadjs %}
+<!--Adding/Removing d-none class on deals and new-arrivals-container with event on click-->
+<script>
+    $("#deals").click(function () {
+        $(".deals-container").removeClass("d-none");
+        $(this).addClass("active");
+        $(".new-arrivals-container").addClass("d-none");
+        $("#new-arrivals").removeClass("active");
+    });
+    $("#new-arrivals").click(function () {
+        $(".new-arrivals-container").removeClass("d-none");
+        $(this).addClass("active");
+        $(".deals-container").addClass("d-none");
+        $("#deals").removeClass("active");
+    });
+    $(".toast").toast("show");
+</script>
+{% endblock %}
