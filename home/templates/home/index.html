@@ -144,20 +144,8 @@
 </div>
 {% endblock %} 
 {% block postloadjs %}
-<!--Adding/Removing d-none class on deals and new-arrivals-container with event on click-->
+
 <script>
-    $("#deals").click(function () {
-        $(".deals-container").removeClass("d-none");
-        $(this).addClass("active");
-        $(".new-arrivals-container").addClass("d-none");
-        $("#new-arrivals").removeClass("active");
-    });
-    $("#new-arrivals").click(function () {
-        $(".new-arrivals-container").removeClass("d-none");
-        $(this).addClass("active");
-        $(".deals-container").addClass("d-none");
-        $("#deals").removeClass("active");
-    });
     $(".toast").toast("show");
 </script>
 {% endblock %}
