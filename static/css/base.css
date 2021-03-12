@@ -9,9 +9,32 @@ body {
     color: #555;
     font-family: 'Lato';
 }
-/*** index.html CAROUSEL ***/
+/*** INDEX.HTNL ***/
+/*** index.html carousel ***/
  .carousel-item img{
      max-height: 55rem;
+}
+/*** drop down links and button links on index.html ***/
+ .dropdown-item:hover{
+     background-color: #82868a;
+     color: #fff;
+}
+ .category{
+     -webkit-transition: -webkit-transform .3s;
+     transition: -webkit-transform .3s;
+     -o-transition: transform .3s;
+     transition: transform .3s;
+     transition: transform .3s, -webkit-transform .3s;
+}
+ .category:hover {
+     -webkit-transform: scale(1.01);
+     -ms-transform: scale(1.01);
+     transform: scale(1.01);
+}
+
+ .card-img {
+     -webkit-filter: brightness(90%);
+     filter: brightness(90%);
 }
 /* from Bulma */
 .icon {
@@ -20,10 +43,6 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
-}
-
-.logo-font {
-    text-transform: uppercase;
 }
 
 .main-logo-link {
@@ -76,6 +95,16 @@ body {
 
 .toast-capper {
     height: 2px;
+}
+/*** FOOTER ***/
+ .footer-down{
+     min-height: calc(100vh - 440px);
+}
+ .allauth-footer-down{
+     min-height: calc(100vh - 266px);
+}
+ .large{
+     font-size: large;
 }
 
 /*** LOGO ***/
