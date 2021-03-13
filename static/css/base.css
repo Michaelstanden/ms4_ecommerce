@@ -8,11 +8,12 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    text-transform: uppercase;
 }
-/*** INDEX.HTNL ***/
+/*** INDEX.HTML ***/
 /*** index.html carousel ***/
  .carousel-item img{
-     max-height: 55rem;
+     max-height: 75rem;
 }
 /*** drop down links and button links on index.html ***/
  .dropdown-item:hover{
@@ -36,6 +37,9 @@ body {
      -webkit-filter: brightness(90%);
      filter: brightness(90%);
 }
+
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -253,9 +257,6 @@ body {
      .navbar-toggler {
          padding: .6rem .6rem;
          font-size: 1rem;
-    }
-     #deals, #new-arrivals{
-         width: 15rem;
     }
 }
  @media (min-width: 768px) and (max-width: 992px){
