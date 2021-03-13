@@ -100,6 +100,11 @@ body {
 .toast-capper {
     height: 2px;
 }
+/*** Products .html ***/
+.products-title {
+    padding-top: 15px;
+}
+
 /*** FOOTER ***/
  .footer-down{
      min-height: calc(100vh - 440px);
@@ -300,5 +305,10 @@ body {
 @media (min-width: 320px) and (max-width: 377px){
     .list-inline-item:not(:last-child){
         margin-right: 1.5rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 377px){
+    .products-title{
+        padding-top: 50px;
     }
 }
