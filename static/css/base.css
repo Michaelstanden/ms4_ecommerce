@@ -31,7 +31,7 @@ body {
      -webkit-transform: scale(1.01);
      -ms-transform: scale(1.01);
      transform: scale(1.01);
-}
+}  
 
  .card-img {
      -webkit-filter: brightness(90%);
