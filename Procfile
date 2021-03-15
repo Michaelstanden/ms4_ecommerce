@@ -1,1 +1,1 @@
-web: gunicorn paperpals.wsgi:application
+web: gunicorn ms4_ecommerce.wsgi:application
