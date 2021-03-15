@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
     # OTHER
     'crispy_forms',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -173,6 +174,12 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'paperpals'
+    AWS_REGION_NAME = 'europe-london-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY_ = os.environ.get('AWS_SECRTET_ACCESS_KEY')
 
 # Stripe
 STRIPE_CURRENCY = 'GBP'
