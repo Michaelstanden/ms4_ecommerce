@@ -120,10 +120,7 @@ body {
  .button-up, .update-link, .remove-item {
      cursor: pointer;
 }
- #deals, #new-arrivals{
-     width: 20rem;
-}
- #dropdown-btn{
+ .dropdown-btn{
      width: 15rem;
 }
 
