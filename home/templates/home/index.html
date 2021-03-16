@@ -61,7 +61,7 @@
         <div class="col-xs-12 col-lg-4">
             <a href="{% url 'products' %}?category=deals">
                 <div class="card category bg-info text-black mb-md-3">
-                    <img src="/media/deals.jpg" class="card-img" alt="Best Deals sign" />
+                    <img src="{{ MEDIA_URL }}deals.jpg" class="card-img" alt="Best Deals sign" />
                     <div class="card-img-overlay">
                         <h4 class="card-title">All Deals</h4>
                     </div>
@@ -71,7 +71,7 @@
         <div class="col-xs-12 col-lg-4">
             <a href="{% url 'products' %}?category=pens">
                 <div class="card category bg-info text-white">
-                    <img src="/media/pens.jpg" class="card-img" alt="Best Ball Point pens sign with assortment of pens" />
+                    <img src="{{ MEDIA_URL }}pens.jpg" class="card-img" alt="Best Ball Point pens sign with assortment of pens" />
                     <div class="card-img-overlay">
                         <h4 class="card-title">Pens</h4>
                     </div>
@@ -81,7 +81,7 @@
         <div class="col-xs-12 col-lg-4">
             <a href="{% url 'products' %}?category=paper">
                 <div class="card category bg-info text-black">
-                    <img src="/media/papers.jpg" class="card-img" alt="Paper sheets piled up" />
+                    <img src="{{ MEDIA_URL }}papers.jpg" class="card-img" alt="Paper sheets piled up" />
                     <div class="card-img-overlay">
                         <h4 class="card-title">Paper/Notepads</h4>
                     </div>
@@ -102,7 +102,7 @@
         <div class="col-xs-12 col-lg-4">
             <a href="{% url 'products' %}?category=desks">
                 <div class="card category bg-info text-black">
-                    <img src="/media/desks.jpg" class="card-img" alt="Large white office desk" />
+                    <img src="{{ MEDIA_URL }}desks.jpg" class="card-img" alt="Large white office desk" />
                     <div class="card-img-overlay">
                         <h4 class="card-title">Desks</h4>
                     </div>
