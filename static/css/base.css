@@ -106,6 +106,26 @@ body {
 .products-title {
     padding-top: 15px;
 }
+/*** BUTTONS ***/
+ .btn-dark:hover{
+     color: #ffc107;
+}
+ .btt-button {
+     height: 42px;
+     width: 42px;
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+}
+ .button-up, .update-link, .remove-item {
+     cursor: pointer;
+}
+ #deals, #new-arrivals{
+     width: 20rem;
+}
+ #dropdown-btn{
+     width: 15rem;
+}
 
 /*** FOOTER ***/
  .footer-down{
