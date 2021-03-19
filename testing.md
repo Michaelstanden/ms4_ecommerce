@@ -216,6 +216,8 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 + Formatted all HTML files for readability and industry standards.
 ### [JSHint](https://jshint.com/)
 + Couple of warnings for undefined variable ("$"), it was referring to JQuery selector and it can be ignored.
+### [CSS Validator]( https://jigsaw.w3.org/css-validator/validator)
++ No errors found.
 ### [Flake8](https://flake8.pycqa.org/en/latest/)
 + Used flake8 to validate python files. Had multiple errors:
     + ```E501 line too long (92 > 79 characters)``` Reformatted my code as much as I could, still couple of them left.
@@ -233,3 +235,5 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 
 ## Further testing:
 + Asked fellow students, friends and family to look at the site on their devices and report any issues they found.
+
+
