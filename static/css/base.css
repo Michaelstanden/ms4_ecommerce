@@ -103,6 +103,11 @@ html {
  .dropdown-btn{
      width: 15rem;
 }
+
+.signup-btn {
+    margin: 15px;
+    text-transform: uppercase;
+}
 /*** FOOTER ***/
  .footer-down{
      min-height: calc(100vh - 440px);
@@ -234,6 +239,11 @@ html {
      justify-content: center;
      margin: 0;
      height: 100%;
+}
+/* SIGN-UP PAGE */
+.signup-header {
+    padding-top: 50px;
+}
 }
 /* -------------------------------- Media Queries */
 /* Slightly larger container on xl screens */
