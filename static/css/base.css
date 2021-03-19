@@ -335,4 +335,8 @@ html {
      .products-title{
          padding-top: 50px;
     }
+ @media (min-width: 320px) and (max-width: 377px){
+     .carousel-item{
+         padding-top: 50px;
+    }  
 }
