@@ -236,6 +236,30 @@ body {
      border-color: #dc3545;
      border-radius: 0;
 }
+/*** LOADING SPINNER ****/
+ #loading-overlay {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(96, 97, 95, 0.85);
+     z-index: 9999;
+}
+ .loading-spinner {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     margin: 0;
+     height: 100%;
+}
 
 
 /* -------------------------------- Media Queries */
