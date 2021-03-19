@@ -1,38 +1,36 @@
 <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-lg-none">
-            <a class="font-weight-bold nav-link mr-5 text-dark" href="{% url 'home' %}" id="home-link">
-                HOME
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="font-weight-bold nav-link mr-5 text-dark" href="{% url 'products' %}" id="all-products-link">
-                All Products
-            </a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link mr-5 text-dark" href="#" id="supplies-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Supplies <i class="fas fa-sort-down"></i> </a>
-            <div class="dropdown-menu border-0 bg-info" aria-labelledby="products-link">
-                <a href="{% url 'products' %}?category=pens" class="dropdown-item">Pens</a>
-                <a href="{% url 'products' %}?category=paper,pads" class="dropdown-item">Paper/Pads</a>
-                <a href="{% url 'products' %}?category=ink" class="dropdown-item">Inks</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link mr-5 text-dark" href="#" id="furniture-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Furniture <i class="fas fa-sort-down"></i> </a>
-            <div class="dropdown-menu border-0 bg-info" aria-labelledby="furniture-link">
-                <a href="{% url 'products' %}?category=chairs" class="dropdown-item">Chairs</a>
-                <a href="{% url 'products' %}?category=desks" class="dropdown-item">Desks</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-dark" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Special Offers <i class="fas fa-sort-down"></i> </a>
-            <div class="dropdown-menu border-0 bg-info" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-            </div>
-        </li>
-    </ul>
+   <ul class="navbar-nav w-auto mx-auto">
+      <li class="nav-item d-block d-lg-none">
+         <a class="font-weight-bold nav-link mr-5 text-dark" href="{% url 'home' %}" id="home-link">
+         HOME
+         </a>
+      </li>
+      <li class="nav-item">
+         <a class="font-weight-bold nav-link mr-5 text-dark" href="{% url 'products' %}" id="all-products-link">
+         All Products
+         </a>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="font-weight-bold nav-link mr-5 text-dark" href="#" id="supplies-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Supplies <i class="fas fa-sort-down"></i> </a>
+         <div class="dropdown-menu border-0 bg-info" aria-labelledby="products-link">
+            <a href="{% url 'products' %}?category=pens" class="dropdown-item">Pens</a>
+            <a href="{% url 'products' %}?category=paper,pads" class="dropdown-item">Paper/Pads</a>
+            <a href="{% url 'products' %}?category=ink" class="dropdown-item">Inks</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="font-weight-bold nav-link mr-5 text-dark" href="#" id="furniture-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Furniture <i class="fas fa-sort-down"></i> </a>
+         <div class="dropdown-menu border-0 bg-info" aria-labelledby="furniture-link">
+            <a href="{% url 'products' %}?category=chairs" class="dropdown-item">Chairs</a>
+            <a href="{% url 'products' %}?category=desks" class="dropdown-item">Desks</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="font-weight-bold nav-link text-dark" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Special Offers <i class="fas fa-sort-down"></i> </a>
+         <div class="dropdown-menu border-0 bg-info" aria-labelledby="specials-link">
+            <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+            <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+         </div>
+      </li>
+   </ul>
 </div>

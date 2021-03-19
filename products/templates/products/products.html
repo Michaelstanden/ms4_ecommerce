@@ -2,166 +2,165 @@
 {% load static %} 
 {% block page_header %}
 <!--Push content down-->
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+   <div class="row">
+      <div class="col"></div>
+   </div>
+</div>
 {% endblock %}
 {% block content %}
-    <div class="container-fluid">
-    <div class="row justify-content-center">
-            <h2 class="text-uppercase font-weight-bold mt-4 products-title">Products</h2>
-        </div>
-        <div class="row">
-            <div class="col-12 d-none d-lg-block text-center mt-3">
-                <span>
-                    <a href="{% url 'products' %}" class="btn btn-sm btn-outline-dark">All</a>
-                    <a href="{% url 'products' %}?category=pens" class="btn btn-sm btn-outline-dark">Pens/Pencils</a>
-                    <a href="{% url 'products' %}?category=paper" class="btn btn-sm btn-outline-dark">Printer Paper</a>
-                    <a href="{% url 'products' %}?category=pads" class="btn btn-sm btn-outline-dark">Notepads/books</a>
-                    <a href="{% url 'products' %}?category=ink" class="btn btn-sm btn-outline-dark">Inks</a>
-                    <a href="{% url 'products' %}?category=desks" class="btn btn-sm btn-outline-dark">Desks</a>
-                    <a href="{% url 'products' %}?category=chairs" class="btn btn-sm btn-outline-dark">Chairs</a>
-                    <a href="{% url 'products' %}?category=new_arrivals" class="btn btn-sm btn-outline-dark">New Arrivals</a>
-                    <a href="{% url 'products' %}?category=deals" class="btn btn-sm btn-outline-dark">Deals</a>
-                </span>
+<div class="container-fluid">
+   <div class="row justify-content-center">
+      <h2 class="text-uppercase font-weight-bold mt-4 products-title">Products</h2>
+   </div>
+   <div class="row">
+      <div class="col-12 d-none d-lg-block text-center mt-3">
+         <span>
+         <a href="{% url 'products' %}" class="btn btn-sm btn-outline-dark">All</a>
+         <a href="{% url 'products' %}?category=pens" class="btn btn-sm btn-outline-dark">Pens/Pencils</a>
+         <a href="{% url 'products' %}?category=paper" class="btn btn-sm btn-outline-dark">Printer Paper</a>
+         <a href="{% url 'products' %}?category=pads" class="btn btn-sm btn-outline-dark">Notepads/books</a>
+         <a href="{% url 'products' %}?category=ink" class="btn btn-sm btn-outline-dark">Inks</a>
+         <a href="{% url 'products' %}?category=desks" class="btn btn-sm btn-outline-dark">Desks</a>
+         <a href="{% url 'products' %}?category=chairs" class="btn btn-sm btn-outline-dark">Chairs</a>
+         <a href="{% url 'products' %}?category=new_arrivals" class="btn btn-sm btn-outline-dark">New Arrivals</a>
+         <a href="{% url 'products' %}?category=deals" class="btn btn-sm btn-outline-dark">Deals</a>
+         </span>
+      </div>
+      <div class="col-12 mt-3 d-lg-none">
+         <div class="input-group mb-3">
+            <div class="input-group d-flex justify-content-center">
+               <button class="btn btn-outline-dark dropdown-toggle btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if current_categories %}{{ current_categories.friendly_name }}{% else %}All{% endif %}</button>
+               <div class="dropdown-menu">
+                  <a href="{% url 'products' %}" class="dropdown-item">All</a>
+                  <a href="{% url 'products' %}?category=pens" class="dropdown-item">Pens/Pencils</a>
+                  <a href="{% url 'products' %}?category=paper" class="dropdown-item">Printer Paper</a>
+                  <a href="{% url 'products' %}?category=pads" class="dropdown-item">Note Pads/Books</a>
+                  <a href="{% url 'products' %}?category=ink" class="dropdown-item">Inks</a>
+                  <a href="{% url 'products' %}?category=desks" class="dropdown-item">Desks</a>
+                  <a href="{% url 'products' %}?category=chairs" class="dropdown-item">Chairs</a>
+                  <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                  <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+               </div>
             </div>
-            <div class="col-12 mt-3 d-lg-none">
-                    <div class="input-group mb-3">
-                    <div class="input-group d-flex justify-content-center">
-                            <button class="btn btn-outline-dark dropdown-toggle btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if current_categories %}{{ current_categories.friendly_name }}{% else %}All{% endif %}</button>
-                        <div class="dropdown-menu">
-                            <a href="{% url 'products' %}" class="dropdown-item">All</a>
-                            <a href="{% url 'products' %}?category=pens" class="dropdown-item">Pens/Pencils</a>
-                            <a href="{% url 'products' %}?category=paper" class="dropdown-item">Printer Paper</a>
-                            <a href="{% url 'products' %}?category=pads" class="dropdown-item">Note Pads/Books</a>
-                            <a href="{% url 'products' %}?category=ink" class="dropdown-item">Inks</a>
-                            <a href="{% url 'products' %}?category=desks" class="dropdown-item">Desks</a>
-                            <a href="{% url 'products' %}?category=chairs" class="dropdown-item">Chairs</a>
-                            <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                            <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                        </div>
-                    </div>
-                    </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-12">
+         <div class="row mt-1 mb-2">
+            <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+               <div class="sort-select-wrapper w-50">
+                  <select id="sort-selector" class="custom-select custom-select-sm border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                  <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                  <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+                  <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+                  <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
+                  <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
+                  </select>
+               </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="row mt-1 mb-2">
-                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
-                        <div class="sort-select-wrapper w-50">
-                            <select id="sort-selector" class="custom-select custom-select-sm border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
-                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
-                                <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
-                                <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
-                                <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
-                                <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 order-md-first">
-                        <p class="mt-3 text-md-left">
-                            {% if search_term or current_categories or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
-                            {% endif %}
-                            {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
-                        </p>
-                    </div>
-                </div>
+            <div class="col-12 col-md-6 order-md-first">
+               <p class="mt-3 text-md-left">
+                  {% if search_term or current_categories or current_sorting != 'None_None' %}
+                  <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                  {% endif %}
+                  {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+               </p>
             </div>
-        </div>
-        <div class="row justify-content-sm-center">
-            {% for product in products %}
-            <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5">
-                <div class="card h-100">
-                    <a href="{% url 'product_detail' product.id %}">
-                    {% if product.image %}
-                        <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
-                    {% else %}
-                        <img src="{{ MEDIA_URL }}no-image-available.png" class="card-img-top img-fluid" alt="{{ product.name }}">
-                    {% endif %}
-                    </a>
-                    <div class="card-body bg-info">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        {% if product.price %}
-                            <div>
-                                <p class="lead mb-0 font-weight-bold">£ {{ product.price }}</p>
-                            </div>
-                        {% endif %}
-                        {% if product.category %}
-                        <div>
-                            <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
-                        </div>
-                        {% endif %}
-                        {% if product.rating %}
-                        <div>
-                            <i class="fas fa-star"> {{ product.rating }}/5</i>
-                        </div>
-                        {% endif %}
-                        {% if request.user.is_superuser %}
-                            <small class="ml-3">
-                                <a class="text-dark" href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
-                                <a class="text-dark" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
-                            </small>
-                        {% endif %}
-                    </div>
-                </div>
+         </div>
+      </div>
+   </div>
+   <div class="row justify-content-sm-center">
+      {% for product in products %}
+      <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5">
+         <div class="card h-100">
+            <a href="{% url 'product_detail' product.id %}">
+            {% if product.image %}
+            <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+            {% else %}
+            <img src="{{ MEDIA_URL }}no-image-available.png" class="card-img-top img-fluid" alt="{{ product.name }}">
+            {% endif %}
+            </a>
+            <div class="card-body bg-info">
+               <h5 class="card-title">{{ product.name }}</h5>
+               {% if product.price %}
+               <div>
+                  <p class="lead mb-0 font-weight-bold">£ {{ product.price }}</p>
+               </div>
+               {% endif %}
+               {% if product.category %}
+               <div>
+                  <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
+               </div>
+               {% endif %}
+               {% if product.rating %}
+               <div>
+                  <i class="fas fa-star"> {{ product.rating }}/5</i>
+               </div>
+               {% endif %}
+               {% if request.user.is_superuser %}
+               <small class="ml-3">
+               <a class="text-dark" href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
+               <a class="text-dark" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+               </small>
+               {% endif %}
             </div>
-            {% endfor %}
-        </div>
-    </div>
-     <div class="btt-button shadow-sm border border-black bg-dark">
-        <a class="button-up d-flex h-100 text-decoration-none">
-            <i class="fas fa-arrow-up text-info mx-auto my-auto"></i>
-        </a>	
-    </div>
+         </div>
+      </div>
+      {% endfor %}
+   </div>
+</div>
+<div class="btt-button shadow-sm border border-black bg-dark">
+   <a class="button-up d-flex h-100 text-decoration-none">
+   <i class="fas fa-arrow-up text-info mx-auto my-auto"></i>
+   </a>	
+</div>
 {% endblock %}
 {% block postloadjs %}
-    {{ block.super }}
-    <script>
-		$('.button-up').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
-    
-    <script>
-        $('#sort-selector').change(function() {
-            let selector = $(this);
-            let currentUrl = new URL(window.location);
-
-            let selectedValue = selector.val();
-            if(selectedValue != "reset"){
-                let sort = selectedValue.split("_")[0];
-                let direction = selectedValue.split("_")[1];
-
-                currentUrl.searchParams.set("sort", sort);
-                currentUrl.searchParams.set("direction", direction);
-
-                window.location.replace(currentUrl);
-            } else {
-                currentUrl.searchParams.delete("sort");
-                currentUrl.searchParams.delete("direction");
-
-                window.location.replace(currentUrl);
-            }
-        })
-        // added active btn btn-sm btn-outline-dark classes from this will ensure that when user is on that products
-      // then they will have a dark button background to highlight what button they are on. https://www.youtube.com/watch?v=BI3kNsTruWo
-        let currentLocation = location.href;
-        let menuItem = document.querySelectorAll('span a');
-        let menuLength = menuItem.length;
-        let dropdownItem = document.getElementsByClassName('dropdown-item');
-        for(let i = 0; i<menuLength; i++){
-            if(menuItem[i].href === currentLocation){
-                menuItem[i].className = 'active btn btn-sm btn-outline-dark';
-            }
-        }
-        for(let i = 0; i<dropdownItem.length; i++){
-            if(dropdownItem[i].href === currentLocation){
-                dropdownItem[i].className = 'active dropdown-item bg-dark';
-            }
-        }
-
-    </script>
+{{ block.super }}
+<script>
+   $('.button-up').click(function(e) {
+   	window.scrollTo(0,0)
+   })
+</script>
+<script>
+   $('#sort-selector').change(function() {
+       let selector = $(this);
+       let currentUrl = new URL(window.location);
+   
+       let selectedValue = selector.val();
+       if(selectedValue != "reset"){
+           let sort = selectedValue.split("_")[0];
+           let direction = selectedValue.split("_")[1];
+   
+           currentUrl.searchParams.set("sort", sort);
+           currentUrl.searchParams.set("direction", direction);
+   
+           window.location.replace(currentUrl);
+       } else {
+           currentUrl.searchParams.delete("sort");
+           currentUrl.searchParams.delete("direction");
+   
+           window.location.replace(currentUrl);
+       }
+   })
+   // added active btn btn-sm btn-outline-dark classes from this will ensure that when user is on that products
+   // then they will have a dark button background to highlight what button they are on. https://www.youtube.com/watch?v=BI3kNsTruWo
+   let currentLocation = location.href;
+   let menuItem = document.querySelectorAll('span a');
+   let menuLength = menuItem.length;
+   let dropdownItem = document.getElementsByClassName('dropdown-item');
+   for(let i = 0; i<menuLength; i++){
+       if(menuItem[i].href === currentLocation){
+           menuItem[i].className = 'active btn btn-sm btn-outline-dark';
+       }
+   }
+   for(let i = 0; i<dropdownItem.length; i++){
+       if(dropdownItem[i].href === currentLocation){
+           dropdownItem[i].className = 'active dropdown-item bg-dark';
+       }
+   }
+   
+</script>
 {% endblock %}
