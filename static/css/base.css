@@ -241,10 +241,10 @@ html {
      height: 100%;
 }
 /* SIGN-UP PAGE */
-.signup-header {
+.site-header {
     padding-top: 50px;
 }
-}
+
 /* -------------------------------- Media Queries */
 /* Slightly larger container on xl screens */
  @media (min-width: 1200px) {
@@ -339,4 +339,5 @@ html {
      .carousel-item{
          padding-top: 50px;
     }  
+}
 }

@@ -73,13 +73,16 @@ The Goals of Paperpals business are:
 + Text shadow and brightness were applied on Category cards on Home Page to make text easier to read, however only 10% reduction as I still wanted the images to pop. 
 ### Wireframes
 #### These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
-+ [Home](media/wireframes/Home.png)
-+ [Products](media/wireframes/Products.png)
-+ [Product Details](media/wireframes/Product-Details.png)
-+ [Shopping Bag](media/wireframes/Shopping-Bag.png)
-+ [Checkout](media/wireframes/Checkout.png)
-+ [Checkout Success](media/wireframes/Checkout-Success.png)
-+ [Profile](media/wireframes/profile.png)
++ [Home](media/wireframes/homepage_desktop_wf.png)
++ [Home mobile](media/wireframes/homepage_mobile.png)
++ [Products](media/wireframes/product_desktop_wf.png)
++ [Products Mobile](media/wireframes/product_mobile_wf.png)
++ [Product Details](media/wireframes/product_details_wf.png)
++ [Product Details Mobile](media/wireframes/product_description_mobile.png)
++ [Shopping Basket](media/wireframes/basket_desktop_wf.png)
++ [Shopping Basket Mobile](media/wireframes/basket_mobile.png)
++ [Checkout](media/wireframes/checkout_desktop_wf.png)
++ [Checkout Mobile](media/wireframes/checkout_mobile_wf.png)
 ## Features
 ### Existing Features
 #### Elements on every page
