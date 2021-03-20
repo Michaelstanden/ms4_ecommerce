@@ -1,6 +1,6 @@
 # Paper Pals
 ## [Live Heroku App Link](https://paperpals.herokuapp.com/)
-## [GitHub repository Link](https://github.com/Michaelstanden/ms4-ecommerce)
+## [GitHub repository Link](https://michaelstanden.github.io/ms4_ecommerce/)
 #### PaperPals e-commerce store was designed, built and deployed by Michael Standen as his final project for the Code Institute Full Stack Web Development diploma. The purpose of PaperPals online shop is to resemble shops and online stores you would see for office supplies and be a good competitor if it was used as a client based website for their brief. This website uses intuitive, smooth and effortless online shopping experiences through the use of streamline clicks, navigation and gives the user full shopping experience with functions such as a secure checkout and a search bar that can search for products, descriptions of products and also categories.
 ## Table of Contents
 ### 1. [UX](#ux)
@@ -82,7 +82,7 @@ The Goals of Paperpals business are:
 + [Shopping Basket](media/wireframes/basket_desktop_wf.png)
 + [Shopping Basket Mobile](media/wireframes/basket_mobile.png)
 + [Checkout](media/wireframes/checkout_desktop_wf.png)
-+ [Checkout Mobile](media/wireframes/checkout_mobile_wf.png)
++ [Checkout Mobile](media/wireframes/checkout_mobile.png)
 ## Features
 ### Existing Features
 #### Elements on every page
@@ -305,7 +305,7 @@ Testing information can be found in separate [TESTING.md](testing.md) file.
 ### Run this project locally
 To run this project on your own IDE follow the instructions below:
 + Ensure you have the following tools: - An IDE such as [Visual Studio Code](https://code.visualstudio.com/)
-+ The following must be installed on your machine: - [PIP](https://pip.pypa.io/en/stable/installing/) - [Python 3](https://www.python.org/downloads/) - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) *CHECK LINK
++ The following must be installed on your machine: - [PIP](https://pip.pypa.io/en/stable/installing/) - [Python 3](https://www.python.org/downloads/) - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) 
 + To allow you to access all functionality on the site locally, ensure you have created free accounts with the following services: - [Stripe](https://stripe.com/en-ie) - [AWS](https://aws.amazon.com/) and [set up an S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
 + Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
 #### Instructions
@@ -400,7 +400,7 @@ Instructions on how to do these steps can be found in the [heroku devcenter docu
 11. Once the build is complete, click the "View app" button provided and site should run as expected.
 ## Credits
 ### Content
-+ All product images and description provided by [officesupplies ](linktosite)
++ All product images and description provided by [officesupplies ](https://www.officesupply.com/)
 ### Images
 + Images on home page and logo taken from [Google](https://www.google.com/).
 ### Code
