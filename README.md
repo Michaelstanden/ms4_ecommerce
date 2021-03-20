@@ -309,9 +309,9 @@ To run this project on your own IDE follow the instructions below:
 + To allow you to access all functionality on the site locally, ensure you have created free accounts with the following services: - [Stripe](https://stripe.com/en-ie) - [AWS](https://aws.amazon.com/) and [set up an S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
 + Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
 #### Instructions
-1. Save a copy of the github repository located at https://github.com/Michaelstanden/ecommerce-ms4 by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
+1. Save a copy of the github repository located at https://michaelstanden.github.io/ms4_ecommerce/ by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
 ```
-git clone https://github.com/Michaelstanden/ecommerce-ms4
+git clone https://michaelstanden.github.io/ms4_ecommerce/
 ```
 2. Open your preferred IDE, open a terminal session in the unzip folder or cd to the correct location.
 3. A virtual environment is recommended for the Python interpreter, I recommend using Pythons built in virtual environment. Enter the command:
