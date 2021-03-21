@@ -1,6 +1,6 @@
 Testing details
 
-### [README.md](readme.md)
+### [README.md](README.md)
 ### [PaperPals](https://paperpals.herokuapp.com/)
 ## Table of Contents
 1. [User Stories Testing](#user-stories-testing)
