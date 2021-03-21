@@ -1,0 +1,1088 @@
+[
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "name": "pens",
+        "friendly_name": "Pens"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "name": "paper",
+        "friendly_name": "Paper"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "name": "pads",
+        "friendly_name": "Notepads"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+        "name": "ink",
+        "friendly_name": "Ink"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+        "name": "chairs",
+        "friendly_name": "Chairs"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+        "name": "desks",
+        "friendly_name": "Desks"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 9,
+    "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 10,
+    "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "sku": "1",
+        "name": "Stilo black ball point pen 50 pack",
+        "description": "A general black ball point pen for everyday writing needs",
+        "price": "4.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX26040.jpg?v=K6Zc8M49--U",
+        "image": "black_ball_point_50.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "sku": "2",
+        "name": "Stilo blue ball point pen 50 pack",
+        "description": "A general blue ball point pen for everyday writing needs",
+        "price": "4.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX26039.jpg?v=3EO_HdikoF0",
+        "image": "blue_ball_point_50.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "sku": "3",
+        "name": "bic ball point pen 50 pack",
+        "description": "Bic's ball point pen long standing engineers for pens",
+        "price": "4.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/BC10002.jpg?v=-N2ppTAA7Dc",
+        "image": "bic_crystal_ball_pen.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "sku": "4",
+        "name": "mulitcoloured flipchart markers",
+        "description": "wipeable markers for whiteboards. Range of colours, Green, Red, Black",
+        "price": "3.49",
+        "rating": "4.60",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX01551.jpg?v=OwH6Ct1wcVc",
+        "image": "flipchart_markers.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 1,
+        "sku": "5",
+        "name": "flexigrip pen papermate",
+        "description": "rubber gripped pen for extra grip, felximate brand",
+        "price": "1.99",
+        "rating": "3.60",
+        "image_url": "https://www.paperstone.co.uk/images/200/GL26511.jpg?v=533G9wGnsc4",
+        "image": "papermate_flexigrip_pen.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 1,
+        "sku": "6",
+        "name": "coloured assorted papermate pen ",
+        "description": "Assorted coloured pen from papermate",
+        "price": "1.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/GL95719.jpg?v=px2Hsx7hQ88",
+        "image": "papermate_assorted_pens_colour.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 1,
+        "sku": "7",
+        "name": "west design chinagraph marker pencil   ",
+        "description": "High quality maker pencil made from white chinawax. Perfect for drawing solid lines or making a semi permanent mark",
+        "price": "8.29",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/RSCHW.jpg?v=WMZ5PbUUBMs",
+        "image": "westdesign_chinagraph_pencil_12.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 1,
+        "sku": "8",
+        "name": "sharpie chinawax marker pencil 12 pack ",
+        "description": "High quality maker pencils made from chinawax. Perfect for drawing and colouring or making a semi permanent mark",
+        "price": "15.99",
+        "rating": "4.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/GL03119.jpg?v=peyVXxO15zQ",
+        "image": "sharpie_china_wax_marker_pencil.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "category": 1,
+        "sku": "9",
+        "name": "q-connect green ball point pen 20 pack",
+        "description": "Green ball point pen for everyday writing needs. 20 Pack",
+        "price": "1.99",
+        "rating": "3.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF34045.jpg?v=ynYcoty2bTE",
+        "image": "qconnect_ballpoint_green_20.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 1,
+        "sku": "10",
+        "name": "q-connect red ballpoint retractable pen pack of 10",
+        "description": "Red ball point retracable pen to save on ink, for everyday writing needs. 10 Pack.",
+        "price": "2.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF00269.jpg?v=72WDYD-gwg0",
+        "image": "qconnect_red.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "category": 1,
+        "sku": "11",
+        "name": "Bic Blue 50 pack crystal ball point pen",
+        "description": "Bic classic pen engineers offer a 50 pack of their Blue crystal ball point pens set.",
+        "price": "4.99",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/BC10001.jpg?v=bTqFeWIPslc",
+        "image": "bic_crystal_ball_blue50.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "category": 1,
+        "sku": "12",
+        "name": "Berol broad pens 12 pack coloured",
+        "description": "Berol handwriting broad pens, good for handwriting beginners or those who prefer a broader storke.",
+        "price": "7.99",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/BR00008.jpg?v=O2NfOA1Pitk",
+        "image": "berol_broad_pens.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "category": 1,
+        "sku": "13",
+        "name": "q-connect ball point black pen with holder and chain",
+        "description": "The perfect pen desk or communal pen for office needs. Easy to use ball point with holder and chain is a pen you are never going to lose.",
+        "price": "3.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF00233.jpg?v=z4nq2dgnK6E",
+        "image": "qconnect_pen_holder.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "category": 1,
+        "sku": "14",
+        "name": "q-connect overhead projector fine tip black permanent marker 10 pack",
+        "description": "Permanent over head projector pens, Great for laminates you want to keep and reuse for those repetitive lessons and presentations.",
+        "price": "3.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF01068.jpg?v=tHJ2I7WgWX8",
+        "image": "qconnect_OHP_pen.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 1,
+        "sku": "15",
+        "name": "Steadler 430 stick medium ballpoint pen 10 pack ",
+        "description": "Staedler's beautiful ballpoints help glide along paper with ease. Medium ink dispertion for an even distribution.",
+        "price": "2.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/ST41089.jpg?v=8CZUDF_b-OU",
+        "image": "staedler_430stickmed_ballpoint_blue_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 1,
+        "sku": "16",
+        "name": "staedler triplus fibre tip pens 10 pack coloured assortment",
+        "description": "Fibre tip pens in an assortment of colours for all your broad stroke colouring needs, can also be used to write as normal to highlight and break up long text. Perfect for studying and colouring.",
+        "price": "11.00",
+        "rating": "4.30",
+        "image_url": "https://www.paperstone.co.uk/images/200/ST32317.jpg?v=OmD_bFIHEnM",
+        "image": "steadler_triplus_colorfibre_tippen_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "category": 1,
+        "sku": "17",
+        "name": "artline 200 fineliner",
+        "description": "Fine liner black pen for those avid artists who want to do fine line work, or for graphs and intricate precise details on spreadhstes.",
+        "price": "16.99",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/AR83027.jpg?v=I43LneUK6Io",
+        "image": "artline_200_fineliner.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "category": 1,
+        "sku": "18",
+        "name": "stabile sensor fineliner bright pen medium black 10 pack",
+        "description": "Stabile's fineliner pens allows a precise writing style and defined edge to any writing or line drawing.",
+        "price": "15.99",
+        "rating": "3.90",
+        "image_url": "https://www.paperstone.co.uk/images/200/SS13662.jpg?v=DbEPWr04QjQ",
+        "image": "stabilo_sensor_finetip_black_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "category": 1,
+        "sku": "19",
+        "name": "black fineliner 0.4mm 10 pack",
+        "description": "black fineliner suitable for fine line work needs, Not a writing pen. Best used for archituecture drawings, graphs and spreadsheet highlighting",
+        "price": "3.79",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX25007.jpg?v=IdlzGUGLFUE",
+        "image": "fineliner_0.4mm_black_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "category": 1,
+        "sku": "20",
+        "name": "west chinagraph 12 pack black marker pencils",
+        "description": "High quality west chinagraphite pencils for drawings or giving strong lines. Used for their premium quality graphite to give a strong line on paper.",
+        "price": "8.49",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/RSCHBK.jpg?v=2Xu_oF7mXjs",
+        "image": "westdesign_chinagraph_pencil_black_12.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "category": 1,
+        "sku": "21",
+        "name": "Tree saver HB 72 pack of recycled pencils",
+        "description": "Enviromentally friendly HB high quality pencils made from receylced pencils 72 in a pack.",
+        "price": "10.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/EG60262.jpg?v=Lasge-mrikg",
+        "image": "treesaver_HB_pencil_recycled_72.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "category": 1,
+        "sku": "22",
+        "name": "helix oxford 20 pack metal pencil sharpener",
+        "description": "Helix standard oxford metal pencil sharpeners. Long lasting, durable and will shapren any pencil to a fine point.",
+        "price": "10.99",
+        "rating": "4.40",
+        "image_url": "https://www.paperstone.co.uk/images/200/HX31974.jpg?v=xdNOGwBzl_o",
+        "image": "helix_oxford_metal_pencilsharpener_20.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "category": 2,
+        "sku": "23",
+        "name": "Colour copy preimuim white paper 500 sheets",
+        "description": "Premium industry quality white paper sheets for printing and copying needs.",
+        "price": "8.29",
+        "rating": "4.60",
+        "image_url": "https://www.paperstone.co.uk/images/200/LG40114.jpg?v=IZC3ognGRsg",
+        "image": "colour_copy_a4_whitepaper.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "category": 2,
+        "sku": "24",
+        "name": "evolution A4 business recycled fsc paper 500 sheets",
+        "description": "Recycled buisness wuality paper for printing and copying needs.",
+        "price": "8.99",
+        "rating": "4.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/EVO00083.jpg?v=dlt1W-EwQZI",
+        "image": "evolution_business_recycled_paper_500.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "category": 2,
+        "sku": "25",
+        "name": "Canon A3 yellow label multipurpose paper 500 sheets",
+        "description": "Yellow label standard multipurpose A3 Paper produced by Canon and their high qualitystandard in paper and printing.",
+        "price": "7.99",
+        "rating": "4.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO01119.jpg?v=HigLfXAhYmc",
+        "image": "canon_a3_yellowlabel_500.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "category": 2,
+        "sku": "26",
+        "name": "Xerox a4 white paper performer 500 sheets",
+        "description": "Xerox high performance durable paper (non easy tear) high quality printing paper.",
+        "price": "7.99",
+        "rating": "4.90",
+        "image_url": "https://www.paperstone.co.uk/images/200/XX49049.jpg?v=YXPnUG7--es",
+        "image": "xerox_performer_a4_500.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "category": 2,
+        "sku": "27",
+        "name": "canon A4 yellow label white sheet paper 500sheets x 5 pack",
+        "description": "Yellow label A4 mutlipurpose pronting and copier white sheet paper 500 sheets in one pack.",
+        "price": "19.99",
+        "rating": "4.90",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO01116.jpg?v=Qh1FPwduWyc",
+        "image": "canon_yellowlabel_5pack.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "category": 2,
+        "sku": "28",
+        "name": "qconnect recycled copier paper 5x500 sheets A4",
+        "description": "Q-Connect leading suppliers in the office world have their recycled copier paper 5x 500 sheets pack.",
+        "price": "19.99",
+        "rating": "4.50",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF01047.jpg?v=43Wp1Vm-9A0",
+        "image": "qconnect_a4_recycled_copierpaper_5500.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "category": 2,
+        "sku": "29",
+        "name": "Xerox colotech+ A4 paper 500 sheets",
+        "description": "Xerox Colotech+ A4 premium prinitng paper, great for graphic projects or high quality image printing.",
+        "price": "7.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/XX94641.jpg?v=kdFrC3S93dE",
+        "image": "xerox_colotech.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "category": 3,
+        "sku": "30",
+        "name": "Pukkapad wirebound A5 jotter notebook, lined and tearable sheets 3 pack",
+        "description": "Pukka's staple notebook for any student or quick business notetaking. Wireframed for durability, lined paper for easy writing and tearable sheets.",
+        "price": "5.99",
+        "rating": "4.40",
+        "image_url": "https://www.paperstone.co.uk/images/200/PP00020.jpg?v=ay7Mt-Y3ef4",
+        "image": "pukkapad_a5_wirebound_ruled.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "category": 3,
+        "sku": "31",
+        "name": "Q-connect memo pad A4 pack of ten faint ruled 80 sheets",
+        "description": "Q-connect's memopad for quick jot downs and essential minute taking in meetings. Off white and faint ruled.",
+        "price": "8.69",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF32001.jpg?v=2oB06W0tmGU",
+        "image": "qconnect_memopad_a4_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "category": 3,
+        "sku": "32",
+        "name": "qconnect refill pad A4 pack of 10",
+        "description": "Q-connect refill pad for memo sheets or for notebooks.",
+        "price": "17.99",
+        "rating": "4.70",
+        "image_url": "https://www.paperstone.co.uk/images/200/KF02228.jpg?v=rpWi-eiWpQk",
+        "image": "qconnect_refillpad_a4.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "category": 3,
+        "sku": "33",
+        "name": "pukka pad pastel 3 pack a5 13.99",
+        "description": "Pukka's Pastel coloured pads are going to be the envy of any meeting room or lecture when you pull them out. A5 to ensure they fit into any bag or backpack.",
+        "price": "37.50",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/PP18631.jpg?v=_llE9moTjVc",
+        "image": "pukkapad_pastel_a5_3.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "category": 3,
+        "sku": "34",
+        "name": "Spiral shorthand notebook lined 80 sheets 10 pack",
+        "description": "80 paged shorthand notebook perfect for thise quick note-taking sessions or jot down ideas throughout the day.",
+        "price": "7.49",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX31003.jpg?v=oqYPy959FzM",
+        "image": "spiral_shorthand_notebook_80.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "category": 3,
+        "sku": "35",
+        "name": "pukka pad a4 wired pack of 3",
+        "description": "A4 version of Pukka's premium wired durable pads. Hard plastic cover and wired binding means this notebook can withstand many a meeting.",
+        "price": "8.19",
+        "rating": "4.10",
+        "image_url": "https://www.paperstone.co.uk/images/200/PP01361.jpg?v=Ich2CKjnRSw",
+        "image": "pukkapad_a4_wired_10.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+        "category": 3,
+        "sku": "36",
+        "name": "manuscript red a5 book ruled pack of 10",
+        "description": "Red cover, ruled manuscript A5 book. Professional standard aesthetic, durable hardback and small sized perfect to fit in any bag or backpack..",
+        "price": "10.99",
+        "rating": "4.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/WX01061.jpg?v=6CKo4TpEqPA",
+        "image": "manuscript_a5_book_ruled.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+        "category": 3,
+        "sku": "37",
+        "name": "Graffico Twin Wire Pocket Notebook 120 Pages A7",
+        "description": "Graffico's supreme twin wired pocket A7 notebook. Small lightweight and curable with its twin wired binding. Great notebook companion.",
+        "price": "2.59",
+        "rating": "4.90",
+        "image_url": "https://www.paperstone.co.uk/images/200/EN12070.jpg?v=lFm0bieVwe8",
+        "image": "graffico_twinwire_pocketnotebook_a7.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+        "category": 3,
+        "sku": "38",
+        "name": "Cambridge Counsels Notebook A4, Ruled & Perforated, 96 Pages, Pack of 10",
+        "description": "Professional and high end aesthetic notebook. 96 pages of perferated easy tearing sheets, ruled for easy writing.",
+        "price": "9.89",
+        "rating": "4.90",
+        "image_url": "https://www.paperstone.co.uk/images/200/JDK76303.jpg?v=nHFAewv_vf8",
+        "image": "cambridge_counsel_notebook_a4.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+        "category": 3,
+        "sku": "39",
+        "name": "Collins Ideal Casebound Manuscript Book A4, Ruled, 192 Pages ",
+        "description": "Collin's professional aesthetic casebound manuscript book. Ideal for writing projects and authors best choice for stroy boarding",
+        "price": "7.19",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/CL76742.jpg?v=A6MxflY348A",
+        "image": "collins_casebound_notebook.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+        "category": 4,
+        "sku": "40",
+        "name": "Epson T7607 Killer Whale Light Black Inkjet Cartridge",
+        "description": "Epson wuality printer inks delivers essential light black ink cartridge for printing needs.",
+        "price": "21.99",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP53912.jpg?v=beqwKRTajAc",
+        "image": "epson_lightblack_ink.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+        "category": 2,
+        "sku": "41",
+        "name": "Epson T6641 EcoTank 70ml Black Ink Bottle",
+        "description": "Epsom eco-friendly recycled ink bottles. Ink colour Black",
+        "price": "7.95",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP54097.jpg?v=AlSkovynujc",
+        "image": "epson_blackink_bottle.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+        "category": 4,
+        "sku": "42",
+        "name": "Epson T266 Black Inkjet Cartridge",
+        "description": "Epson true Black inkjet cartridges. Copier and printer standard",
+        "price": "16.99",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP54182.jpg?v=-W3ylLMnQ8c",
+        "image": "epson_black_266globe.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 43,
+    "fields": {
+        "category": 4,
+        "sku": "43",
+        "name": "Epson T267 Colour Inkjet Cartridge",
+        "description": "Epson multicolour inket cartridge. Copier and printer standard. High impact colour.",
+        "price": "13.99",
+        "rating": "4.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP54184.jpg?v=-gsiR9gkOb8",
+        "image": "epson_colour_globet267.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 44,
+    "fields": {
+        "category": 4,
+        "sku": "44",
+        "name": "Epson T7601 Photo Black Ink Cartridge C13T76014010 / T7601",
+        "description": "Epson multi printer cartirdges for most Epson printers. Versatile cartidges for multi-printer needs.",
+        "price": "22.99",
+        "rating": "4.70",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP53906.jpg?v=8YIADJh55qw",
+        "image": "epson_black_whalephoto_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 45,
+    "fields": {
+        "category": 4,
+        "sku": "45",
+        "name": "Epson T7605 Light Cyan Ink Cartridge C13T76054010 / T7605",
+        "description": "Epson Cyan mulit printer cartridge. Perfect for most Epson printers.",
+        "price": "22.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP53910.jpg?v=V0XFs_QpKZE",
+        "image": "epson_cyan_whale_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+        "category": 4,
+        "sku": "46",
+        "name": "Epson T7603 Vivid Magenta Ink Cartridge C13T76034010 / T7603 22.99",
+        "description": "Epson multi printer Magenta cartridges. Perfect for most Epson printer usage.",
+        "price": "22.99",
+        "rating": "4.10",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP53908.jpg?v=W0e2NDsD8BU",
+        "image": "epson_magenta_whale_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+        "category": 4,
+        "sku": "47",
+        "name": "Epson T7604 Yellow Ink Cartridge C13T76044010 / T7604 22.99",
+        "description": "Epson multi printer purpose cartridge. Yellow coloured ink.",
+        "price": "22.99",
+        "rating": "4.40",
+        "image_url": "https://www.paperstone.co.uk/images/200/EP53909.jpg?v=ixyTHRkRVlE",
+        "image": "epson_yellow_whale_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+        "category": 4,
+        "sku": "48",
+        "name": "Canon CLI-36 Colour Inkjet Cartridge",
+        "description": "Canon colour inkjet cartirdge.",
+        "price": "11.99",
+        "rating": "4.40",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO39176.jpg?v=UKb-H8ELYnQ",
+        "image": "canon_colour_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+        "category": 4,
+        "sku": "49",
+        "name": "Canon PGI-525 Black Inkjet Cartridge",
+        "description": "Canon Pure black inket colour for printer and copier functions.",
+        "price": "12.99",
+        "rating": "4.70",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO66992.jpg?v=lSwkBvGNnVo",
+        "image": "canon_black_boxcart.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 50,
+    "fields": {
+        "category": 4,
+        "sku": "50",
+        "name": "Canon CLI-521 Magenta Inkjet Cartridge",
+        "description": "Canon Magenta inkjet cartidge.",
+        "price": "12.99",
+        "rating": "4.80",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO57751.jpg?v=4nY3XrJR8V8",
+        "image": "canon_magenta_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 51,
+    "fields": {
+        "category": 4,
+        "sku": "51",
+        "name": "Canon CLI-521 Cyan Inkjet Cartridge",
+        "description": "Canon Cyan inket cartridge",
+        "price": "12.99",
+        "rating": "4.70",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO57749.jpg?v=ucL7wfvEcJ4",
+        "image": "canon_cyan_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 52,
+    "fields": {
+        "category": 4,
+        "sku": "52",
+        "name": "Canon CLI-521 Yellow Inkjet Cartridge ",
+        "description": "Canon Yellow inkjet cartridge",
+        "price": "12.99",
+        "rating": "4.20",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO57753.jpg?v=jDN6FtnYzsU",
+        "image": "canon_yellow_cartridge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 53,
+    "fields": {
+        "category": 5,
+        "sku": "53",
+        "name": "Contour Heavy Duty Executive Leather Chair 289.00",
+        "description": "Nothing screams you're the boss more than this heavy duty all black leather executive chair. Durable, heavyduty and contoured for comfort this chair is in a league of it's own",
+        "price": "289.00",
+        "rating": "5.00",
+        "image_url": "https://www.paperstone.co.uk/images/200/CO57753.jpg?v=jDN6FtnYzsU",
+        "image": "exec_chair_leather.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 54,
+    "fields": {
+        "category": 5,
+        "sku": "54",
+        "name": "Colossal Fabric blue Executive Chair",
+        "description": "Cobalt blue heavy duty fabric executive chair for those who prefer a cloth appraoch to their chairs. Semi reclining and adjustable for all body types",
+        "price": "216.00",
+        "rating": "4.00",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_25460_1.jpg",
+        "image": "fabric_blue_chair.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 55,
+    "fields": {
+        "category": 5,
+        "sku": "55",
+        "name": "Chase Heavy Duty Mesh Back Operator Chair",
+        "description": "Standard comfy and durable operatpr's chair. Black mesh back support, adjustable",
+        "price": "310.00",
+        "rating": "4.20",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/h/e/hercules_1.jpg",
+        "image": "mesh_exec_chair.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 56,
+    "fields": {
+        "category": 5,
+        "sku": "56",
+        "name": "Full Lumbar 2 Lever Operator Chair No Arms blue",
+        "description": "Blue fabric armless chair, adjustable, and semi reclining. Lumbar support model to keep backs supported all day",
+        "price": "56.00",
+        "rating": "4.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/1/5/1572703621734729.jpg",
+        "image": "blue_lumbar_noarms.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 57,
+    "fields": {
+        "category": 5,
+        "sku": "57",
+        "name": "Kendall 2 Lever High Back Operator Chair black Lumbar",
+        "description": "Black fabric armless chair, adjustable, and semi reclining. Lumbar support model to keep backs supported all day",
+        "price": "56.00",
+        "rating": "4.60",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/v/1/v100-00-k.jpg",
+        "image": "black_lumar_noarms.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 58,
+    "fields": {
+        "category": 5,
+        "sku": "58",
+        "name": "Kendall 2 Lever High Back Operator Chair Black lumbar",
+        "description": "Kendall's 2 lever high back operator chair that is suitable for any office enivronment to  ensure any worker is comfortable throughout their day.",
+        "price": "56.00",
+        "rating": "4.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/v/1/v100-00-k.jpg",
+        "image": "black_lumbar_arms.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 59,
+    "fields": {
+        "category": 9,
+        "sku": "59",
+        "name": "Full Lumbar 3 Lever Operator Chair With Adjustable Arms blue lumbar",
+        "description": "Full lumbar support throughout the day wiht this ergonomic design. Adjustable height and arms",
+        "price": "85.00",
+        "rating": "4.20",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/1/5/1572704610064083.jpg",
+        "image": "blue_lumbar_noarms.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 60,
+    "fields": {
+        "category": 9,
+        "sku": "60",
+        "name": "Serene 2 Lever Syncro Operator Chair black lumbar",
+        "description": "Full lumbar support throughout the day wiht this ergonomic design. Adjustable height and arms.",
+        "price": "85.00",
+        "rating": "4.60",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/p/s/psm3blk-psmha_front_45_zoom.jpg",
+        "image": "black_lumbar_arms.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 61,
+    "fields": {
+        "category": 9,
+        "sku": "61",
+        "name": "Calypso Mesh Back Operator Chair",
+        "description": "A standard mesh operator chair that is sure to brighten up any office space with its bright and cheery colours.",
+        "price": "71.00",
+        "rating": "5.00",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/e/t/etdpa_zoom_46931n_1.jpg",
+        "image": "calypso_mesh_chair.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 62,
+    "fields": {
+        "category": 5,
+        "sku": "62",
+        "name": "Moffat Mesh Back Operator Chair",
+        "description": ".",
+        "price": "79.00",
+        "rating": "3.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/h/a/hal300t1-k_1_3.jpg",
+        "image": "moffat_mesh_chair.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 63,
+    "fields": {
+        "category": 5,
+        "sku": "63",
+        "name": "Anapo Mesh Back Operator Chair",
+        "description": "Stylish, comfortable and durable. The Anapo mesh operator chair will make any employee comfortable.",
+        "price": "92.00",
+        "rating": "4.80",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/o/p/op000249_3.jpg",
+        "image": "anapo_mesh_chair.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 64,
+    "fields": {
+        "category": 9,
+        "sku": "64",
+        "name": "Shen Home Office Desk With 2 Drawers (Black Frame)",
+        "description": "Uber stylish and sleek home desk, suitable for small offices or designated office spaces.",
+        "price": "95.00",
+        "rating": "4.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/s/d/sd01bkbe.jpg",
+        "image": "shenhome_desk_black.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 65,
+    "fields": {
+        "category": 10,
+        "sku": "65",
+        "name": "Shen Home Office Desk With 2 Drawers (White Frame)",
+        "description": "Uber stylish and sleek home desk, suitable for small offices or designated office spaces.",
+        "price": "95.00",
+        "rating": "3.80",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/s/d/sd01whbe.jpg",
+        "image": "shenhome_desk_white.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 66,
+    "fields": {
+        "category": 10,
+        "sku": "66",
+        "name": "Annex Industrial Bench Desk (Smoked Oak)",
+        "description": "This low cost but high end looking desk is a sure fire way to give your office that touch of luxury without breaking the bank.",
+        "price": "117.00",
+        "rating": "3.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/5/4/5423024.jpg",
+        "image": "annex_desk_smokedoak.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 67,
+    "fields": {
+        "category": 6,
+        "sku": "67",
+        "name": "Annex Industrial Bench Desk (Charter Oak)",
+        "description": "This low cost but high end looking desk is a sure fire way to give your office that touch of luxury without breaking the bank.",
+        "price": "117.00",
+        "rating": "4.60",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_industrial-style-bench-desk_2_3732991896_1.jpg",
+        "image": "annex_desk_charteroak.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 68,
+    "fields": {
+        "category": 10,
+        "sku": "68",
+        "name": "Progress H-Leg Left Hand L-Shape Desk",
+        "description": "Economical on space and price this L-shaped desk can make the most use of space in any office.",
+        "price": "229.00",
+        "rating": "4.10",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/g/p/gp1880lhretbesv_front_45.jpg",
+        "image": "progress_lshape_desk.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 69,
+    "fields": {
+        "category": 6,
+        "sku": "69",
+        "name": "Proteus III L-Shape Desk",
+        "description": "Economical on space and price this L-shaped desk can make the most use of space in any office.",
+        "price": "223.00",
+        "rating": "4.00",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/w/o/woodlea_zoom_60221.jpg",
+        "image": "proteus_lshape_desk.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 70,
+    "fields": {
+        "category": 6,
+        "sku": "70",
+        "name": "Respond Sit & Stand Desk (Platinum Oak)",
+        "description": "for the office lovers who like to stand, or sit. This versatile desk offers both options, all whilst being strikingly stylish.",
+        "price": "580.00",
+        "rating": "4.20",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/b/s/bspot_zoom_ecoreact16bpo-sil.jpg",
+        "image": "sitstand_platoak_desk.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 71,
+    "fields": {
+        "category": 9,
+        "sku": "71",
+        "name": "Respond Sit & Stand Desk (Beech)",
+        "description": "for the office lovers who like to stand, or sit. This versatile desk offers both options, all whilst being strikingly stylish.",
+        "price": "580.00",
+        "rating": "4.90",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/b/s/bspot_zoom_ecoreact16bb-sil.jpg",
+        "image": "sitstand_beech_desk.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 72,
+    "fields": {
+        "category": 6,
+        "sku": "72",
+        "name": "Tully I Rectangular Desk 3 Drawers",
+        "description": "Traditonal desks that have ample storage with 3 drawers for all your office needs. Keeps clutter clear.",
+        "price": "195.00",
+        "rating": "4.50",
+        "image_url": "",
+        "image": "tully_desk_draw.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 73,
+    "fields": {
+        "category": 9,
+        "sku": "73",
+        "name": "Portal L Shaped Workstation",
+        "description": "L shaped desk to maximise space and have plenty of surface to work from. Suitable for the office spreaders.",
+        "price": "359.00",
+        "rating": "4.70",
+        "image_url": "https://www.furniture-work.co.uk/media/catalog/product/cache/1/small_image/229x229/9df78eab33525d08d6e5fb8d27136e95/t/e/teknik_zoom_5412320_1.jpg",
+        "image": "portal_lshaped_station.jpg"
+    }
+}
+]
