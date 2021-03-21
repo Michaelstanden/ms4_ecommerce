@@ -231,6 +231,8 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 #### Solved bugs
 1. Images on certain items were not loading up in products.html. Items from image files would not load or show the no image available alternative. I checked spelling and it was correct. To rectify this I had to update and edit products image with an upload. This fixed the issue and has no issues since.
 2. Products sizing of images. Sometimes the sizing of images on the mobile screen were not being targeted or affected. Fixed this with media query.
+3. Github didnt catch up to my jeroku database and was not loaded up in the postgres. I have to manually comment out code in settings.py to revert back, Dump the products app and then add it back into it using media.json file. I then refigured the config vars in env.py an ensured they were all correct before adding and pushing back to github.
+4. Email confirmation was not working. I had to realise that this was due to the teste being carried out in github and Gamil will not will with github I have tested on Heroku extensively and all emails come through on Heroku.
 
 
 ## Further testing:

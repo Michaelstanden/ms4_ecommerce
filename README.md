@@ -400,7 +400,7 @@ Instructions on how to do these steps can be found in the [heroku devcenter docu
 11. Once the build is complete, click the "View app" button provided and site should run as expected.
 ## Credits
 ### Content
-+ All product images and description provided by [officesupplies ](https://www.officesupply.com/)
++ All product descriptions and prices provided by me images sourced from [officesupplies ](https://www.officesupply.com/)
 ### Images
 + Images on home page and logo taken from [Google](https://www.google.com/).
 ### Code
