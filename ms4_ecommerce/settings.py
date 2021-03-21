@@ -119,27 +119,17 @@ WSGI_APPLICATION = 'ms4_ecommerce.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-# if 'DATABASE_URL' in os.environ:
-#     DATABASES = {
-#         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-#     }
-# else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
-#DATABASES = {
-#       'default': dj_database_url.parse("postgres://kcqtxitadszjtq:8729bacd98e206a99c3b99124e6890d1edd0d5f5a6a60dd5e8fcb05a439cb834@ec2-54-220-195-236.eu-west-1.compute.amazonaws.com:5432/dc4q1og0osqiri")
-#    }
-DATABASES = {
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+     }
+else:
+    DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
