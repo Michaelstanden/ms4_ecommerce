@@ -8,6 +8,7 @@ Testing details
 3. [Code Validation](#code-validation)
 4. [Bugs Discovered](#bugs-discovered)
 5. [Further Testing](#further-testing)
+
 ## User Stories Testing
 The following section goes through the user stories identified in the UX section of README.md to check that the site meets those needs.
 #### As a Shopper:
