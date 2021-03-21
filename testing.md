@@ -126,37 +126,53 @@ All steps on desktop were repeated in browsers: Firefox, Chrome and Microsoft Ed
     + Confirmed that email was sent to customer with order summary included.
 2. Checkout our deals button
     + By clicking on the button, I was redirected to products with category deals, no issues here.
+
 ##### Register
+
 + Confirm that the register form is displayed as expected.
 + Fill in the form with a username already in the database, confirm that the user is informed that they must use a unique username.
 + Fill in the email input with a non-email address, confirm the user is shown an error asking user to use an email address.
 + Fill in the form with two different passwords, confirm the error is caught again and the user is informed of their mistake.
 + Fill in the registration for correctly, confirm that the email is sent to user to confirm email address. Once user confirms email address, message success notification appears notifying user that email is confirmed now and page redirects to Sign In page.
+
 ##### Login
+
 + Attempt to log in with a username not in the database, confirm the relevant error message is shown.
 + Attempt to log in with a correct username but wrong password, confirm the relevant error message is shown.
 + Log in with a correct username and password, confirm that the user is logged in and that they are redirected home page.
 + Try to return to the login page url when already logged in, confirm that the user is redirected to the home page.
+
 ##### Logout
+
 + Click the "Logout" link in the navigation bar. By clicking on Sign Out, confirm that the user is logged out.
 + Confirm that clicking on Cancel user is redirected to home page.
+
 ##### My Profile
+
 + Confirm that profile page is displayed correctly.
 + Confirm that order history is shown as it should.
 + Confirm that users information is prepopulated if already filled in.
 + Clicked on Update Information button and confirmed that profile has been updated if so.
 + Message success also appears to notify user of the action taken.
+
 ##### SuperUser/Admin
+
 + Ensured superuser and admin cannot be accessed if users are not superuser or admin. If users find out the profile link, users are directed to a page to say they are not a super user and do not have access to this page. 
+
 ##### Message notifications
+
 + Added item to basket and confirmed that mini summary is shown in message success.
 + Deleted item to confirm the message success appears notifying user of action taken.
 + Edited item to confirm Alert message, works as expected.
 + Searched with no text inside search bar, confirmed Error message.
+
 #### Testing undertaken on tablet and phone devices
+
 All steps below were repeated to test mobile and tablet specific elements on my Samsung phone and Ipad, using Google Chrome, Mozilla Firefox, Opera and Safari.
 Responsive design was also tested in the Chrome Developer Tools device simulators on all options and orientations.
+
 ##### Elements on every page
+
 1. Navbar
     + Open the website on mobile, confirm that the navbar is collapsed into a burger icon
     + Click the burger icon, confirm that the navbar list appears as expected.
@@ -165,14 +181,20 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
     + Scroll to the bottom of the page, confirm that the footer contents is displayed as expected with the bootstrap grid.
     + No content squashed or squeezed or disproportionate in size.
     + Confirm that all links and buttons in footer are easy to click with a finger on the smallest screen sizes.
+
 ##### Products
+
 + Confirm that dropdown button with categories appears and works as expected no matter which category is selected.
 + Confirm that the product list is displayed one on top of each other on mobile, and 3 to a row on tablet.
 + Confirm that all clicks and swipes operate as expected on touch screen.
+
 ##### All pages
+
 + Navigate to all pages on the site, check that the layout is as expected for the screen size.
 + Check that all buttons, menus, forms and other elements are the correct proportions and easily clickable with a finger.
+
 ## Code Validation
+
 ### [Autoprefixer](https://autoprefixer.github.io/)
 + Added prefixes to CSS for different browsers.
 ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
